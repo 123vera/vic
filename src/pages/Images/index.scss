@@ -1,0 +1,26 @@
+@import '../../styles/_common.scss';
+
+#images {
+  height: 100%;
+  background-color: #808080;
+  padding-top: 10%;
+  box-sizing: border-box;
+
+  .images-wrapper {
+    max-width: 1190px;
+    margin: 0 auto;
+
+    .row {
+      .column {
+        text-align: center;
+
+        img.box {
+          margin: 45px auto;
+          width: 188px;
+          height: 188px;
+        }
+      }
+    }
+  }
+
+}

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Route, Switch} from 'react-router-dom'
+import {Router, Route, Switch} from 'react-router-dom'
 import Loadable from 'react-loadable'
 import {Layout, LocaleProvider} from 'antd';
 import CommonHeader from "./components/common/CommonHeader";
@@ -12,8 +12,23 @@ const LabContainer = Loadable({
     loading: Loading
 })
 
-const HomePage = Loadable({
-    loader: () => import('./pages/Home'),
+const Projects = Loadable({
+    loader: () => import('./pages/Projects'),
+    loading: Loading
+})
+
+const InfluenceChain = Loadable({
+    loader: () => import('./pages/InfluenceChain'),
+    loading: Loading
+})
+
+const Images = Loadable({
+    loader: () => import('./pages/Images'),
+    loading: Loading
+})
+
+const Contact = Loadable({
+    loader: () => import('./pages/Contact'),
     loading: Loading
 })
 
@@ -25,11 +40,17 @@ class App extends Component {
                     <div id='app'>
                         <Layout>
                             <CommonHeader/>
-
                             <Switch>
-                                <Route path='/' component={HomePage}/>
+                                <Route path='/' component={Projects} exact/>
+                                <Route path='/projects' component={Projects}/>
                                 <Route path='/lab' component={LabContainer}/>
+                                <Route path='/images' component={Images}/>
+                                <Route path='/contact' component={Contact}/>
+                                <Route path='/influence-chain' strict component={InfluenceChain}/>
                             </Switch>
+                            <footer>
+                                &#169; 2019 Hui Xie.All rights reserved.
+                            </footer>
                         </Layout>
                     </div>
                 </LocaleProvider>
