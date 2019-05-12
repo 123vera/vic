@@ -1,0 +1,50 @@
+@import '../../styles/_common.scss';
+
+#home {
+  .banner {
+    width: 100%;
+    height: 724px;
+    background-color: $theme-color-bg;
+    color: $theme-color-text;
+
+    .banner-desc {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      max-width: $page-safe-width;
+      height: 80%;
+      margin: 0 auto;
+      font-size: $font-size-small;
+
+      p {
+        width: 45%;
+
+        &:nth-child(odd) {
+          margin-top: 55px;
+        }
+      }
+    }
+  }
+
+  .main-info {
+    width: 90%;
+    margin: 60px auto;
+    background-color: transparent;
+
+    .row {
+      margin-left: -10px;
+      margin-right: -10px;
+    }
+
+    .column {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .box {
+      height: 280px;
+      background-color: #61dafb;
+      margin-bottom: 20px;
+    }
+  }
+}

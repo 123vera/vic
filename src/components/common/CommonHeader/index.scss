@@ -1,0 +1,50 @@
+@import '../../../styles/_common.scss';
+
+#common-header {
+  width: 100%;
+  background-color: $theme-color-bg;
+
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8.6rem;
+    color: $theme-color-text;
+
+    $width-left: 80%;
+
+    > div {
+      width: $width-left;
+
+      span {
+        width: 100px;
+      }
+
+      .nav-ul {
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+        list-style: none;
+        padding: 0;
+
+        li {
+          width: 15%;
+        }
+      }
+
+    }
+
+    .lang-ul {
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+      list-style: none;
+      width: calc(100% - 80%);
+
+      li {
+        width: 50%;
+        text-align: right;
+      }
+    }
+  }
+}
