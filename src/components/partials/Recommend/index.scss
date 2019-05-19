@@ -1,0 +1,66 @@
+@import '../../../styles/common';
+
+.recommend {
+
+  h2 {
+    font-size: 20px;
+    margin: 45px 0;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .recommend-wrapper {
+    //overflow: hidden;
+
+    .recommend-list-pc, .recommend-list-phone {
+      white-space: nowrap;
+      overflow-x: auto;
+      box-sizing: border-box;
+      -webkit-overflow-scrolling: touch;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+
+    .recommend-list-pc {
+      width: 100%;
+
+      .recommend-item {
+        position: relative;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        white-space: normal;
+        width: 32%;
+        margin-right: 30px;
+        margin-bottom: $page-safe-padding;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+
+    .recommend-list-phone {
+      margin: 0 20px;
+
+      .recommend-item {
+        position: relative;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        white-space: normal;
+        width: 90%;
+        margin-right: 30px;
+        margin-bottom: $page-safe-padding;
+
+
+      }
+    }
+  }
+
+
+}

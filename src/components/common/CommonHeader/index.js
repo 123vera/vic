@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {DICT} from '../../../i18n'
-import { Link } from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import {ensureLanguage, setCookie, setLanguage} from "../../../utils/utils";
 import './index.scss'
 
@@ -15,11 +15,11 @@ const antdLocales = [
 ]
 
 class CommonHeader extends Component {
-
     state = {
         language: null,
         currentLanguage: 'CN',
         currentNav: 'projects',
+        isShowNav: false
     }
 
     componentDidMount() {
@@ -44,11 +44,11 @@ class CommonHeader extends Component {
 
     // 切换主页路由
     switchRoute = (url) => {
-        this.setState({currentNav: url})
+        this.setState({currentNav: url, isShowNav: false})
     }
 
     render() {
-        const {language, currentLanguage, currentNav} = this.state
+        const {language, currentLanguage, currentNav, isShowNav} = this.state
         const dict = DICT && DICT[language]
         const navList = [
             {
@@ -57,24 +57,22 @@ class CommonHeader extends Component {
             }, {
                 label: 'images',
                 value: dict && dict.NAV_TITLE_02,
-
             },
-            // {
-            //     label: 'project',
-            //     value: dict && dict.NAV_TITLE_03
-            // },
             {
                 label: 'contact',
                 value: dict && dict.NAV_TITLE_04,
-
             }
         ]
         return (
             <div id='common-header'>
-                <div className='container_60 header-wrapper'>
+                <div className='hidden-xs container_60 header-wrapper'>
                     <div>
-                        <span/>
                         <ul className='nav-ul '>
+                            <li>
+                                <Link to={`/projects`}>
+                                    <img className='logo' src='/images/header-logo.png' alt=""/>
+                                </Link>
+                            </li>
                             {navList.map(nav => (
                                 <li
                                     key={nav.label}
@@ -92,6 +90,32 @@ class CommonHeader extends Component {
                                 onClick={() => this.setLang(locale.label)}>{locale.value}</li>
                         ))}
                     </ul>
+                </div>
+
+                <div className='hidden-lg hidden-md hidden-sm header-visible'>
+                    <Link to='/projects'>xiehui.design</Link>
+                </div>
+
+                {!isShowNav &&
+                <div className='wow fadeInUp hidden-lg hidden-md hidden-sm add' onClick={() => {
+                    this.setState({isShowNav: true})
+                }}>+</div>
+                }
+                <div className={`wow fadeInUp phone-nav-switch ${isShowNav ? '' : 'display-none'}`}>
+                    <ul className='phone-nav-ul '>
+                        {navList.map(nav => (
+                            <li
+                                key={nav.label}
+                                onClick={() => this.switchRoute(nav.label)}
+                                className={currentNav === nav.label ? 'active' : ''}>
+                                <Link to={`/${nav.label}`}> {nav.value}</Link>
+                            </li>
+                        ))}
+                    </ul>
+                    <div className="close-x" onClick={() => {
+                        this.setState({isShowNav: false})
+                    }}>×
+                    </div>
                 </div>
             </div>
         )
