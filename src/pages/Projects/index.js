@@ -240,8 +240,17 @@ class Projects extends Component {
                     <div id="container"/>
                     <div className='banner-desc'>
                         <p>
-                            <span>Hui Xie, UI、WEB Designer.</span>
-                            <span>Provide website visual design, commercial design, improve company image.</span>
+                            <span data-wow-delay="260ms">Hui Xie, </span>
+                            <span data-wow-delay="75ms">UI、WEB Designer. </span>
+                            <span>Provide </span>
+                            <span>website </span>
+                            <span>visual </span>
+                            <span>design, </span>
+                            <span>commercial </span>
+                            <span>design, </span>
+                            <span>improve </span>
+                            <span>company </span>
+                            <span>image. </span>
                         </p>
                         <p>
                             <span>謝輝，UI、網頁設計師。</span>
