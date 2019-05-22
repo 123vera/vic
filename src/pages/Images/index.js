@@ -4,42 +4,6 @@ import Swiper from 'react-id-swiper/lib/ReactIdSwiper.full';
 import {Navigation} from 'swiper/dist/js/swiper.esm'
 import './index.scss'
 
-const SimpleSwiper = (currSlide) => {
-    const [swiper, updateSwiper] = useState(null);
-    let swiperList = []
-    imagesList.map((images) => {
-        images.group.map(item => {
-            swiperList.push(item)
-        })
-    })
-
-    const goNext = () => {
-        if (swiper !== null) {
-            swiper.slideNext();
-        }
-    };
-
-    const goPrev = () => {
-        if (swiper !== null) {
-            swiper.slidePrev();
-        }
-    }
-
-    return (
-        <div className='row swiper-box'>
-            <button className='pre' onClick={goPrev}> &gt; </button>
-            <Swiper key={new Date()} initialSlide={currSlide} getSwiper={updateSwiper} modules={[Navigation]}>
-                {swiperList.map(item => (
-                    <div key={item} className='row img-box'>
-                        <img className='img-swiper column col-lg-12  col-md-12 col-sm-12 col-xs-12' src={item} alt=''/>
-                    </div>
-                ))}
-            </Swiper>
-            <button className='next' onClick={goNext}> &lt; </button>
-        </div>
-
-    )
-}
 
 const imagesList = [
     {group: ['/images/images-1.jpg', '/images/images-2.jpg', '/images/images-3.jpg', '/images/images-4.jpeg']},
@@ -56,10 +20,48 @@ const imagesList = [
     {group: ['/images/images-45.jpg', '/images/images-46.jpg', '/images/images-47.jpeg', '/images/images-48.jpg']}
 ]
 
+let swiperList = []
+imagesList.map((images) => {
+    images.group.map(item => {
+        swiperList.push(item)
+    })
+})
+
+const SimpleSwiper = (props) => {
+    const [swiper, updateSwiper] = useState(null);
+
+    const goNext = () => {
+        if (swiper !== null) {
+            swiper.slideNext();
+        }
+    };
+
+    const goPrev = () => {
+        if (swiper !== null) {
+            swiper.slidePrev();
+        }
+    }
+    return (
+        <div className='row swiper-box'>
+            <button className='pre' onClick={goPrev}> &gt; </button>
+            <Swiper key={new Date()} initialSlide={props.currSlide} getSwiper={updateSwiper} modules={[Navigation]}>
+                {swiperList.map(item => (
+                    <div key={item} className='row img-box'>
+                        <img className='img-swiper column col-lg-12  col-md-12 col-sm-12 col-xs-12' src={item}/>
+                    </div>
+                ))}
+            </Swiper>
+            <button className='next' onClick={goNext}> &lt; </button>
+        </div>
+
+    )
+}
+
+
 class Images extends Component {
     state = {
         isShowModel: false,
-        currSlide: null
+        currSlide: 0
     }
 
     componentDidMount() {
@@ -70,12 +72,13 @@ class Images extends Component {
     }
 
     toViewModel = (item) => {
-        const number = item.split('.')[0].substr(-1) - 1
+        const number = swiperList.findIndex(image=>item===image) || 0
         this.setState({isShowModel: true, currSlide: number})
     }
 
     render() {
         const {isShowModel, currSlide} = this.state
+
         return (
             <div id='images'>
                 <section className='images-wrapper'>

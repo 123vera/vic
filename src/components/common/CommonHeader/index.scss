@@ -39,7 +39,7 @@
       position: relative;
 
       &.active {
-        &:before {
+        a::before {
           content: '';
           display: inline-block;
           width: 40%;
@@ -89,6 +89,19 @@
 
       li {
         width: 50%;
+
+        &.active {
+          a::before {
+            content: '';
+            display: inline-block;
+            width: 40%;
+            height: 1px;
+            background: $theme-color-text;
+            position: absolute;
+            left: -5%;
+            top: 40%;
+          }
+        }
       }
     }
   }

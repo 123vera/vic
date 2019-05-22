@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 import {DICT} from '../../i18n'
 import {WOW} from 'wowjs'
-import './index.scss'
 import {ensureLanguage} from "../../utils/utils";
+import './index.scss'
 
 class Contact extends Component {
     componentDidMount() {
@@ -15,7 +15,6 @@ class Contact extends Component {
     render() {
         const language = ensureLanguage()
         const dict = DICT && DICT[language]
-
         return (
             <div id='contact' className='wow fadeInRight container'>
                 <div className='row wrapper'>

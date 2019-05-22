@@ -5,23 +5,21 @@ import {ensureLanguage} from "../../utils/utils";
 import {DICT} from "../../i18n";
 import './index.scss'
 
-class Cutter extends Component {
+class Inex extends Component {
     render() {
         const language = ensureLanguage()
-        console.log(language)
         const dict = DICT && DICT[language]
         const keyWords = {
-            title: 'Visual design',
+            title: 'Application design',
             years: '2019',
-            category: dict && dict.CATEGORY_VISUAL_DESIGN,
+            category: dict && dict.CATEGORY_APP,
         }
-
         return (
-            <div className='work-cutter content'>
+            <div className='work-inex content'>
                 <Introduce keyWords={keyWords}/>
 
                 <div className='design-pics'>
-                    <img className='pics' src='/images/cutter.jpg' alt=""/>
+                    <img className='pics' src='/images/inex.png' alt=""/>
                 </div>
 
                 <Recommend/>
@@ -30,4 +28,4 @@ class Cutter extends Component {
     }
 }
 
-export default Cutter
+export default Inex

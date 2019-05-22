@@ -1,28 +1,86 @@
 @import '../../styles/_common.scss';
 
+canvas {
+  margin-left: -22%;
+}
+
 #home {
   position: relative;
 
   .banner {
     width: 100%;
     height: 724px;
-    background-color: $theme-color-bg;
     color: $theme-color-text;
+    overflow: hidden;
+
+    #container {
+      position: absolute;
+      width: 100%;
+      height: 724px;
+      background-color: #000;
+    }
 
     .banner-desc {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-      max-width: $page-safe-width;
-      height: 80%;
-      margin: 0 auto;
-      font-size: $font-size-small;
+      position: relative;
+      top: 35%;
+      font-size: $font-size-small + 4;
+      z-index: 10;
+      width: 100%;
 
       p {
-        width: 45%;
+        position: relative;
+        left: 17%;
+        width: 25%;
 
-        &:nth-child(odd) {
-          margin-top: 55px;
+        &:nth-child(2) {
+          margin-top: 3%;
+        }
+
+        @media (min-width: 1366px) and (max-width: 1079px) {
+          width: 23%;
+          left: 17%;
+        }
+
+        @media (max-width: 1080px) {
+          top: 35%;
+          width: 38%;
+          left: 12%;
+        }
+      }
+    }
+
+    aside {
+      position: fixed;
+      top: 30%;
+      right: 20px;
+      transform: translateY(20%);
+      height: 420px;
+      margin-top: -210px;
+      z-index: 10;
+
+      button {
+        background: none;
+
+        &.pre {
+          transform: rotateX(90deg);
+        }
+
+        &.next {
+          transform: rotateX(90deg);
+        }
+      }
+
+      .scroll-main {
+        position: relative;
+        width: 2px;
+        height: 420px;
+        background: rgba(255, 255, 255, 0.2);
+
+        .scroll-bar {
+          position: absolute;
+          width: 1px;
+          height: 70px;
+          background: #fff;
         }
       }
     }

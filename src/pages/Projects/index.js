@@ -9,7 +9,7 @@ const worksList = [
             link: '/influence-chain'
         }, {
             img: 'images/works-2.png',
-            link: ''
+            link: '/inex'
         }, {
             img: 'images/works-3.png',
             link: '/inc-pay'
@@ -111,24 +111,150 @@ const worksList = [
 ]
 
 class Projects extends Component {
+    state = {
+        scrollBarTop: 0,
+        scrollBarColor: '#fff',
+        scrollBarBgColor: 'rgba(255, 255, 255, 0.2)'
+    }
+
     componentDidMount() {
         let wow = new WOW({
             live: false
         })
+        const clientHeight = document.body.clientHeight  // 页面高度
+        let barTop = 0
         wow.init()
+        this.initAnimate()
+
+        window.onscroll = () => {
+            let scrollTop = document.documentElement.scrollTop || document.body.scrollTop; // 滚动高度
+            if (scrollTop >= clientHeight) return
+            barTop = ((420 - 70) * (scrollTop / clientHeight))
+            this.setState({
+                scrollBarTop: barTop,
+                scrollBarColor: barTop >= 100 ? '#333' : '#fff',
+                scrollBarBgColor: barTop >= 100 ? 'rgba(0,0,0,0.2)' : 'rgba(255, 255, 255, 0.2)'
+            })
+        }
+    }
+
+    initAnimate = () => {
+        let screenWidth, screenHeight, smallerSize;
+        const container = document.querySelector('#container')
+
+        const Z_RANGE = 200; // How deep is your love
+        const Z_VELOCITY = -0.0045; // How fast
+        const STARS_COUNT = 2000; // How many
+
+        const setSizes = () => {
+            screenWidth = window.innerWidth;
+            screenHeight = 724;
+            smallerSize = screenWidth > screenHeight ? screenHeight : screenWidth;
+        }
+        setSizes();
+        const HOLE = {
+            x: screenWidth / 2,
+            y: screenHeight / 2,
+            r: smallerSize / 3.2
+        };
+
+        class Star {
+            constructor() {
+                this.reset();
+            }
+
+            reset() {
+                this.x = 1 - Math.random() * 2;
+                this.y = 1 - Math.random() * 2;
+                this.z = Math.random() * -Z_RANGE;
+                this.xPos = 0;
+                this.yPos = 0;
+                this.angle = 0.001;
+            };
+
+            getPosition() {
+                this.x = this.x * Math.cos(this.angle) - this.y * Math.sin(this.angle);
+                this.y = this.y * Math.cos(this.angle) + this.x * Math.sin(this.angle);
+                this.z += Z_VELOCITY;
+
+                this.xPos =
+                    screenHeight / screenWidth * screenWidth * this.x / this.z +
+                    screenWidth / 2;
+                this.yPos = screenHeight * this.y / this.z + screenHeight / 2;
+
+                // Detect collision with black hole
+                if (Math.sqrt((this.xPos - HOLE.x) * (this.xPos - HOLE.x) + (this.yPos - HOLE.y) * (this.yPos - HOLE.y)) <= HOLE.r || this.z >= Z_RANGE) this.reset();
+            };
+
+            draw() {
+                const size = 3 - -this.z / 2;
+
+                ctx.globalAlpha = (Z_RANGE + this.z) / (Z_RANGE * 2);
+                ctx.fillStyle = "white";
+                ctx.fillRect(this.xPos, this.yPos, size, size);
+                ctx.globalAlpha = 1;
+            };
+        }
+
+        const stars = new Array(STARS_COUNT);
+
+        for (let i = 0; i < STARS_COUNT; i++) stars[i] = new Star();
+
+        const canvas = document.createElement("canvas");
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        container.appendChild(canvas)
+
+        const ctx = canvas.getContext("2d");
+
+        const animate = () => {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            ctx.beginPath();
+            ctx.fillStyle = "white";
+            stars.forEach(star => {
+                star.getPosition();
+                star.draw();
+            });
+            ctx.fill();
+
+            requestAnimationFrame(animate);
+        }
+        window.addEventListener('resize', e => {
+            setSizes();
+            canvas.width = screenWidth;
+            canvas.height = screenHeight;
+            HOLE.r = smallerSize / 4;
+            HOLE.x = screenWidth / 2;
+            HOLE.y = screenHeight / 2;
+        });
+        animate();
     }
 
     render() {
         const {history} = this.props
+        const {scrollBarTop, scrollBarColor, scrollBarBgColor} = this.state
         return (
             <div id='home'>
                 <section className='banner hidden-phone hidden-xs'>
+                    <div id="container"/>
                     <div className='banner-desc'>
-                        <p>Hui Xie, UI、WEB Designer.</p>
-                        <p>Provide website visual design, commercial design, improve company image.</p>
-                        <p>謝輝，UI、網頁設計師。 </p>
-                        <p>為公司提供網站視覺設計、商業設計、提升公司形象。</p>
+                        <p>
+                            <span>Hui Xie, UI、WEB Designer.</span>
+                            <span>Provide website visual design, commercial design, improve company image.</span>
+                        </p>
+                        <p>
+                            <span>謝輝，UI、網頁設計師。</span>
+                            <span>為公司提供網站視覺設計、商業設計、提升公司形象。</span>
+                        </p>
                     </div>
+                    <aside>
+                        <button className='pre'>&gt;</button>
+                        <div className='scroll-main' style={{background: scrollBarBgColor}}>
+                            <div className='scroll-bar' style={{top: scrollBarTop, background: scrollBarColor}}/>
+                        </div>
+                        <button className='next'>&lt;</button>
+                    </aside>
                 </section>
 
                 <section className='wow fadeInRight container main-info'>

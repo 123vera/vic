@@ -1,0 +1,39 @@
+@import '../../styles/_common.scss';
+
+#about {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1190px;
+  min-height: calc(100vh - 136px);
+  margin: 0 auto;
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .about-me {
+    color: $theme-color-primary;
+    font-weight: 500;
+
+    h2 {
+      font-size: $font-size-small + 2;
+      margin-bottom: 50px;
+    }
+
+    p {
+      font-size: $font-size-small - 2;
+      margin-bottom: 30px;
+    }
+  }
+
+  .img-wrapper {
+    img {
+      width: 520px;
+      height: 702px;
+    }
+  }
+}

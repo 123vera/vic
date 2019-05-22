@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import {DICT} from '../../../i18n'
 import {Link} from 'react-router-dom'
-import {ensureLanguage, setCookie, setLanguage} from "../../../utils/utils";
 import './index.scss'
 
 const antdLocales = [
@@ -16,39 +15,17 @@ const antdLocales = [
 
 class CommonHeader extends Component {
     state = {
-        language: null,
-        currentLanguage: 'CN',
-        currentNav: 'projects',
+        currentNav: window.location.pathname.split('/')[1] || 'projects',
         isShowNav: false
     }
-
-    componentDidMount() {
-        this.initLanguage()
-    }
-
-    // 初始化语言
-    initLanguage = () => {
-        const language = ensureLanguage()
-        this.setLang(language)
-    }
-
-    setLang = (language) => {
-        Promise.resolve(
-            setLanguage(language)
-        ).then(() => {
-            this.setState({language, currentLanguage: language.slice(-2)}, () => {
-                setCookie('language', language)
-            })
-        })
-    }
-
     // 切换主页路由
     switchRoute = (url) => {
         this.setState({currentNav: url, isShowNav: false})
     }
 
     render() {
-        const {language, currentLanguage, currentNav, isShowNav} = this.state
+        const {currentNav, isShowNav} = this.state
+        const {setLang, language, currentLanguage} = this.props
         const dict = DICT && DICT[language]
         const navList = [
             {
@@ -57,6 +34,10 @@ class CommonHeader extends Component {
             }, {
                 label: 'images',
                 value: dict && dict.NAV_TITLE_02,
+            },
+            {
+                label: 'about',
+                value: dict && dict.NAV_TITLE_03,
             },
             {
                 label: 'contact',
@@ -78,7 +59,7 @@ class CommonHeader extends Component {
                                     key={nav.label}
                                     onClick={() => this.switchRoute(nav.label)}
                                     className={currentNav === nav.label ? 'active' : ''}>
-                                    <Link to={`/${nav.label}`}> {nav.value}</Link>
+                                    <Link to={`/${nav.label}`}>{nav.value.charAt(0).toUpperCase() + nav.value.slice(1)}</Link>
                                 </li>
                             ))}
                         </ul>
@@ -86,8 +67,10 @@ class CommonHeader extends Component {
 
                     <ul className='lang-ul'>
                         {antdLocales.map(locale => (
-                            <li key={locale.label} className={locale.value === currentLanguage ? 'active' : ''}
-                                onClick={() => this.setLang(locale.label)}>{locale.value}</li>
+                            <li key={locale.label} className={currentLanguage === locale.value ? 'active' : ''}
+                                onClick={() => setLang(locale)}><a>
+                                {locale.value}
+                            </a></li>
                         ))}
                     </ul>
                 </div>

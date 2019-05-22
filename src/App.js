@@ -1,11 +1,14 @@
 import React, {Component} from 'react';
-import {Router, Route, Switch} from 'react-router-dom'
+import {Route, Switch} from 'react-router-dom'
 import Loadable from 'react-loadable'
 import {Layout, LocaleProvider} from 'antd';
+import {ensureLanguage, setCookie, setLanguage} from "./utils/utils";
 import CommonHeader from "./components/common/CommonHeader";
+import CommonFooter from "./components/common/CommonFooter";
 import ErrorBoundary from './components/common/ErrorBoundary'
 import Loading from './components/common/Loading'
 import './App.css';
+
 
 const Text = Loadable({
     loader: () => import('./pages/Text'),
@@ -146,6 +149,11 @@ const NewPay = Loadable({
     loading: Loading
 })
 
+const Inex = Loadable({
+    loader: () => import('./pages/Inex'),
+    loading: Loading
+})
+
 const Images = Loadable({
     loader: () => import('./pages/Images'),
     loading: Loading
@@ -156,19 +164,65 @@ const Contact = Loadable({
     loading: Loading
 })
 
+const About = Loadable({
+    loader: () => import('./pages/About'),
+    loading: Loading
+})
+
+
+const antdLocales = [
+    {
+        label: 'zh-CN',
+        value: 'CN'
+    }, {
+        label: 'en-US',
+        value: 'US'
+    }
+]
+
 class App extends Component {
+    state = {
+        language: 'zh-CN',
+        currentLanguage: 'CN',
+    }
+
+    componentDidMount() {
+        this.initLanguage()
+    }
+
+    // 初始化语言
+    initLanguage = () => {
+        const language = ensureLanguage()
+        console.log('dddd' + language)
+        // const lang = antdLocales.find(item=>item.value===)
+        setCookie('language', language)
+        this.setLang(language)
+    }
+
+    // 设置语言
+    setLang = (locale) => {
+        setCookie('language', locale.label)
+        this.setState({language: locale.label, currentLanguage: locale.value}, () => {
+            setLanguage(locale.label)
+        })
+    }
+
     render() {
+        // const antdLocale = antdLocales[language]
+        const {currentLanguage = 'CN', language = 'zh-CN'} = this.state
         return (
             <ErrorBoundary>
                 <LocaleProvider>
                     <div id='app'>
                         <Layout>
-                            <CommonHeader/>
+                            <CommonHeader language={language} currentLanguage={currentLanguage}
+                                          setLang={this.setLang}/>
                             <Switch>
                                 <Route path='/' component={Projects} exact/>
                                 <Route path='/projects' component={Projects}/>
                                 <Route path='/lab' component={LabContainer}/>
-                                <Route path='/images' component={Images}/>
+                                <Route path='/images' strict component={Images}/>
+                                <Route path='/about' strict component={About}/>
                                 <Route path='/contact' component={Contact}/>
                                 <Route path='/influence-chain' strict component={InfluenceChain}/>
                                 <Route path='/inc-pay' strict component={IncPay}/>
@@ -191,15 +245,14 @@ class App extends Component {
                                 <Route path='/photo' strict component={Photo}/>
                                 <Route path='/GBIB' strict component={GBIB}/>
                                 <Route path='/ACP' strict component={ACP}/>
-                                <Route path='/wayki' strict  component={Wayki}/>
+                                <Route path='/wayki' strict component={Wayki}/>
                                 <Route path='/aurelia' strict component={Aurelia}/>
                                 <Route path='/SFI' strict component={SFI}/>
                                 <Route path='/new-pay' strict component={NewPay}/>
                                 <Route path='/Text' strict component={Text}/>
+                                <Route path='/Inex' strict component={Inex}/>
                             </Switch>
-                            <footer>
-                                &#169; 2019 Hui Xie.All rights reserved.
-                            </footer>
+                            <CommonFooter language={language} currentLanguage={currentLanguage}/>
                         </Layout>
                     </div>
                 </LocaleProvider>
