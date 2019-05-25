@@ -76,7 +76,7 @@ class CommonHeader extends Component {
                 </div>
 
                 <div className='hidden-lg hidden-md hidden-sm header-visible'>
-                    <Link to='/projects'>xiehui.design</Link>
+                    <Link to='/projects'>XIEHUI DESIGN</Link>
                 </div>
 
                 {!isShowNav &&

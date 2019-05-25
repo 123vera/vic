@@ -5,12 +5,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1190px;
+  width: 100%;
   min-height: calc(100vh - 136px);
-  margin: 0 auto;
+  background-color: $theme-color-bg-content;
 
   .wrapper {
-    width: 100%;
+    max-width: 1190px;
+    //width: 100%;
+    margin: 0 auto;
+
   }
 
   .msg {

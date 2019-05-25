@@ -6,6 +6,7 @@
   padding-right: $page-safe-padding;
 
   .design-pics {
+    position: relative;
     box-sizing: border-box;
     padding: 55px 0;
     border-top: 2px solid $theme-color-border;
@@ -13,6 +14,15 @@
 
     .pics {
       width: 100%;
+    }
+    .video-play {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 86px;
+      height: 86px;
+      background-color: #ccc;
     }
   }
 }

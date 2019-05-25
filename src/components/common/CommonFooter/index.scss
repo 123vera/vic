@@ -2,41 +2,46 @@
 
 #common-footer {
   position: relative;
+  bottom: 0;
   z-index: 5;
   border-top: 2px solid #ddd;
 
   .main {
-    display: flex;
-    justify-content: flex-start;
-    box-sizing: border-box;
+
     padding: 40px 0 80px;
-    max-width: 1190px;
-    margin: 0 auto;
-    background: #fff;
+    background-color: $theme-color-bg-content;
 
-    ul {
-      list-style: none;
-      padding: 0;
+    .main-wrapper {
+      display: flex;
+      justify-content: flex-start;
+      box-sizing: border-box;
+      max-width: 1190px;
+      margin: 0 auto;
 
-      li {
-        font-size: 16px;
-        letter-spacing: 1px;
-        cursor: pointer;
+      ul {
+        list-style: none;
+        padding: 0;
 
-        a {
-          color: #333;
-          text-decoration: none;
+        li {
+          font-size: 16px;
+          letter-spacing: 1px;
+          cursor: pointer;
+
+          a {
+            color: #333;
+            text-decoration: none;
+          }
+
+          &:first-child {
+            color: #000;
+            font-weight: bolder;
+            margin-bottom: 50px;
+          }
         }
 
         &:first-child {
-          color: #000;
-          font-weight: bolder;
-          margin-bottom: 50px;
+          margin-left: 100px;
         }
-      }
-
-      &:first-child {
-        margin-left: 100px;
       }
     }
   }

@@ -133,7 +133,7 @@ class Projects extends Component {
             this.setState({
                 scrollBarTop: barTop,
                 scrollBarColor: barTop >= 100 ? '#333' : '#fff',
-                scrollBarBgColor: barTop >= 100 ? 'rgba(0,0,0,0.2)' : 'rgba(255, 255, 255, 0.2)'
+                scrollBarBgColor: barTop >= 100 ? 'rgba(0,0,0,0.2)' : 'rgba(255, 255, 255, 0.1)'
             })
         }
     }
@@ -236,28 +236,53 @@ class Projects extends Component {
         const {scrollBarTop, scrollBarColor, scrollBarBgColor} = this.state
         return (
             <div id='home'>
-                <section className='banner hidden-phone hidden-xs'>
+                <section className='banner hidden-phone'>
                     <div id="container"/>
-                    <div className='banner-desc'>
+                    <div className='row banner-desc'>
                         <p>
-                            <span data-wow-delay="260ms">Hui Xie, </span>
-                            <span data-wow-delay="75ms">UI、WEB Designer. </span>
-                            <span>Provide </span>
-                            <span>website </span>
-                            <span>visual </span>
-                            <span>design, </span>
-                            <span>commercial </span>
-                            <span>design, </span>
-                            <span>improve </span>
-                            <span>company </span>
-                            <span>image. </span>
+                            <span className='split-part'
+                                  style={{transitionDelay: '2310ms'}}>Hui Xie, </span>
+                            <span className='split-part'
+                                  style={{transitionDelay: '10760ms'}}>UI、WEB Designer. </span>
+                            <span className='split-part'
+                                  style={{transitionDelay: '8910ms'}}>Provide </span>
+                            <span className='split-part'
+                                  style={{transitionDelay: '20880ms'}}>website </span>
+                            <span className='split-part'
+                                  style={{transitionDelay: '170ms'}}>visual </span>
+                            <span className='split-part'
+                                  style={{transitionDelay: '160ms'}}>design, </span>
+                            <span className='split-part'
+                                  style={{transitionDelay: '80ms'}}>commercial </span>
+                            <span className='split-part'
+                                  style={{transitionDelay: '140ms'}}>design, </span>
+                            <span className='split-part'
+                                  style={{transitionDelay: '30ms'}}>improve </span>
+                            <span className='split-part'
+                                  style={{transitionDelay: '90ms'}}>company </span>
+                            <span className='split-part'
+                                  style={{transitionDelay: '150ms'}}>image. </span>
                         </p>
                         <p>
-                            <span>謝輝，UI、網頁設計師。</span>
-                            <span>為公司提供網站視覺設計、商業設計、提升公司形象。</span>
+                            <span className='split-part'
+                                  style={{transitionDelay: '8910ms'}}>謝輝，</span>
+                            <span className='split-part'
+                                  style={{transitionDelay: '20880ms'}}>UI、網頁設計師。</span>
+                            <span className='split-part'
+                                  style={{transitionDelay: '160ms'}}>為公司</span>
+                            <span className='split-part'
+                                  style={{transitionDelay: '80ms'}}>提供</span>
+                            <span className='split-part'
+                                  style={{transitionDelay: '140ms'}}>網站</span>
+                            <span className='split-part'
+                                  style={{transitionDelay: '30ms'}}>視覺設計、</span>
+                            <span className='split-part'
+                                  style={{transitionDelay: '90ms'}}>商業設計、</span>
+                            <span className='split-part'
+                                  style={{transitionDelay: '150ms'}}>提升公司形象。</span>
                         </p>
                     </div>
-                    <aside>
+                    <aside className='hidden-xs'>
                         <button className='pre'>&gt;</button>
                         <div className='scroll-main' style={{background: scrollBarBgColor}}>
                             <div className='scroll-bar' style={{top: scrollBarTop, background: scrollBarColor}}/>
@@ -267,27 +292,29 @@ class Projects extends Component {
                 </section>
 
                 <section className='wow fadeInRight container main-info'>
-                    {worksList.map((works, index) => (
-                        <div key={index} className='row m-4'>
-                            {works && works.group.length >= 3 && works.group.map(item => (
-                                <div key={item.img}
-                                     className='column col-lg-4 m-4 col-md-4 col-sm-4 col-xs-12 wow fadeInUp'>
-                                    <img onClick={() => {
-                                        history.push(item.link)
-                                    }} src={item.img} alt=''/>
-                                </div>
-                            ))}
-                            {works && works.group.length === 2 && works && works.group.map(item => (
-                                <div key={item.img}
-                                     className='column col-lg-6  col-md-6 col-sm-6 col-xs-12 wow fadeInUp'>
-                                    <img onClick={() => {
-                                        history.push(item.link)
-                                    }} src={item.img} alt=''/>
-                                </div>
-                            ))
-                            }
-                        </div>
-                    ))}
+                    <div className='main-info_wrapper'>
+                        {worksList.map((works, index) => (
+                            <div key={index} className='row m-4'>
+                                {works && works.group.length >= 3 && works.group.map(item => (
+                                    <div key={item.img}
+                                         className='column col-lg-4 m-4 col-md-4 col-sm-4 col-xs-12 wow fadeInUp'>
+                                        <img onClick={() => {
+                                            history.push(item.link)
+                                        }} src={item.img} alt=''/>
+                                    </div>
+                                ))}
+                                {works && works.group.length === 2 && works && works.group.map(item => (
+                                    <div key={item.img}
+                                         className='column col-lg-6  col-md-6 col-sm-6 col-xs-12 wow fadeInUp'>
+                                        <img onClick={() => {
+                                            history.push(item.link)
+                                        }} src={item.img} alt=''/>
+                                    </div>
+                                ))
+                                }
+                            </div>
+                        ))}
+                    </div>
                 </section>
             </div>
         )
