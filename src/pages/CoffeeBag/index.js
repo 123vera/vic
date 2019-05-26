@@ -15,7 +15,7 @@ class CoffeeBag extends Component {
             category: dict && dict.CATEGORY_VISUAL_DESIGN,
         }
         return (
-            <div className='work-coffee-bag content'>
+            <div className='padding-top work-coffee-bag content'>
                 <Introduce keyWords={keyWords}/>
 
                 <div className='design-pics'>

@@ -15,7 +15,7 @@ class Wayki extends Component {
             category:  dict && dict.CATEGORY_WEB,
         }
         return (
-            <div className='work-wayki content'>
+            <div className='padding-top work-wayki content'>
                 <Introduce keyWords={keyWords}/>
 
                 <div className='design-pics'>

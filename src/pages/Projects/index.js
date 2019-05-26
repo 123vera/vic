@@ -6,106 +6,132 @@ const worksList = [
     {
         group: [{
             img: 'images/works-1.png',
-            link: '/influence-chain'
+            link: '/influence-chain',
+            name: 'Influence chain',
         }, {
             img: 'images/works-2.png',
-            link: '/inex'
+            link: '/inex',
+            name: 'INEX'
         }, {
             img: 'images/works-3.png',
-            link: '/inc-pay'
+            link: '/inc-pay',
+            name: 'INC PAY'
         }]
     },
     {
         group: [{
             img: 'images/works-4.png',
-            link: '/design-inc'
+            link: '/design-inc',
+            name: '影鏈'
         }, {
             img: 'images/works-5.png',
-            link: '/dlab'
+            link: '/dlab',
+            name: 'Dlab'
         }, {
             img: 'images/works-6.png',
-            link: '/celebrity'
+            link: '/celebrity',
+            name: '紅人'
         }]
     },
     {
         group: [{
             img: 'images/works-7.png',
-            link: '/teamlab'
+            link: '/teamlab',
+            name: 'Teamlab'
         }, {
             img: 'images/works-8.png',
-            link: '/coffee-bag'
+            link: '/coffee-bag',
+            name: '咖啡包'
         }]
     },
     {
         group: [{
             img: 'images/works-9.png',
-            link: '/cutter'
+            link: '/cutter',
+            name: 'Cutter'
         }, {
             img: 'images/works-10.png',
-            link: '/arulai'
+            link: '/arulai',
+            name: '阿如来'
         }, {
             img: 'images/works-11.png',
-            link: '/turnip'
+            link: '/turnip',
+            name: '芜菁'
         }]
     },
     {
         group: [{
             img: 'images/works-12.png',
-            link: '/room'
+            link: '/room',
+            name: 'Room'
         }, {
             img: 'images/works-13.png',
-            link: '/DNA'
+            link: '/DNA',
+            name: 'DNA'
         }, {
             img: 'images/works-14.png',
-            link: '/stec'
+            link: '/stec',
+            name: 'STEC'
         }]
     },
     {
         group: [{
             img: 'images/works-15.png',
-            link: '/spot'
+            link: '/spot',
+            name: '现货'
         }, {
             img: 'images/works-16.png',
-            link: '/zan'
+            link: '/zan',
+            name: 'Zan'
         }, {
             img: 'images/works-17.png',
-            link: '/water'
+            link: '/water',
+            name: 'Water'
         }]
     },
     {
         group: [{
             img: 'images/works-18.png',
-            link: '/poster'
+            link: '/poster',
+            name: 'Poster'
         }, {
             img: 'images/works-19.png',
-            link: '/gelaisi'
+            link: '/gelaisi',
+            name: '格莱'
         }, {
             img: 'images/works-20.png',
-            link: '/photo'
+            link: '/photo',
+            name: 'Photograph'
         }]
     },
     {
         group: [{
             img: 'images/works-21.png',
-            link: '/GBIB'
+            link: '/GBIB',
+            name: 'GBIB'
         }, {
             img: 'images/works-22.png',
-            link: '/ACP'
+            link: '/ACP',
+            name: 'ACP'
         }, {
             img: 'images/works-23.png',
-            link: '/wayki'
+            link: '/wayki',
+            name: '維基'
         }]
     },
     {
         group: [{
             img: 'images/works-24.png',
-            link: '/aurelia'
+            link: '/aurelia',
+            name: 'Web'
         }, {
             img: 'images/works-25.png',
-            link: '/SFI'
+            link: '/SFI',
+            name: 'SFI'
         }, {
             img: 'images/works-26.png',
-            link: '/new-pay'
+            link: '/new-pay',
+            name: '新貝'
         }]
     }
 ]
@@ -297,18 +323,26 @@ class Projects extends Component {
                             <div key={index} className='row m-4'>
                                 {works && works.group.length >= 3 && works.group.map(item => (
                                     <div key={item.img}
-                                         className='column col-lg-4 m-4 col-md-4 col-sm-4 col-xs-12 wow fadeInUp'>
-                                        <img onClick={() => {
-                                            history.push(item.link)
-                                        }} src={item.img} alt=''/>
+                                         className='column col-lg-4 m-4 col-md-4 col-sm-4 col-xs-12 wow fadeInUp img-box'
+                                         onClick={() => {
+                                             history.push(item.link)
+                                         }}>
+                                        <img src={item.img} alt=''/>
+                                        <div className='img-shadow'>
+                                            {item.name}
+                                        </div>
                                     </div>
                                 ))}
                                 {works && works.group.length === 2 && works && works.group.map(item => (
                                     <div key={item.img}
-                                         className='column col-lg-6  col-md-6 col-sm-6 col-xs-12 wow fadeInUp'>
-                                        <img onClick={() => {
-                                            history.push(item.link)
-                                        }} src={item.img} alt=''/>
+                                         className='column col-lg-6  col-md-6 col-sm-6 col-xs-12 wow fadeInUp img-box'
+                                         onClick={() => {
+                                             history.push(item.link)
+                                         }}>
+                                        <img src={item.img} alt=''/>
+                                        <div className='img-shadow'>
+                                            {item.name}
+                                        </div>
                                     </div>
                                 ))
                                 }

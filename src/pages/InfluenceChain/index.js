@@ -16,7 +16,7 @@ class InfluenceChain extends Component {
             url: 'influencechain.org'
         }
         return (
-            <div className=' work-inc content'>
+            <div className='padding-top work-inc content'>
                 <Introduce keyWords={keyWords}/>
 
                 <div className='design-pics'>

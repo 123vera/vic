@@ -11,6 +11,6 @@ const DICT = {
 const SUPPORTED_LANGUAGES = Object.keys(DICT)
 
 // 默认语言
-const DEFAULT_LANGUAGE = 'zh-CN'
+const DEFAULT_LANGUAGE = 'en-US'
 
 module.exports = { DICT, SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE }

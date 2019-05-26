@@ -15,7 +15,7 @@ class Zan extends Component {
             category: dict && dict.CATEGORY_VISUAL_DESIGN,
         }
         return (
-            <div className='work-zan content'>
+            <div className='padding-top work-zan content'>
                 <Introduce keyWords={keyWords}/>
 
                 <div className='design-pics'>

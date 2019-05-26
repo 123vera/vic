@@ -58,7 +58,7 @@ class TeamLab extends Component {
             category: dict && dict.CATEGORY_VIDEO,
         }
         return (
-            <div className='work-teamlab content'>
+            <div className='padding-top work-teamlab content'>
                 <Introduce keyWords={keyWords}/>
 
                 <div className='design-pics'>

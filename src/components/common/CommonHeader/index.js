@@ -24,8 +24,8 @@ class CommonHeader extends Component {
     }
 
     render() {
-        const {currentNav, isShowNav} = this.state
-        const {setLang, language, currentLanguage} = this.props
+        const {currentNav} = this.state
+        const {setLang, language, currentLanguage, isDarkBg} = this.props
         const dict = DICT && DICT[language]
         const navList = [
             {
@@ -36,68 +36,49 @@ class CommonHeader extends Component {
                 value: dict && dict.NAV_TITLE_02,
             },
             {
-                label: 'about',
+                label: 'portrait',
                 value: dict && dict.NAV_TITLE_03,
             },
             {
-                label: 'contact',
+                label: 'about',
                 value: dict && dict.NAV_TITLE_04,
+            },
+            {
+                label: 'contact',
+                value: dict && dict.NAV_TITLE_05,
             }
         ]
         return (
-            <div id='common-header'>
-                <div className='hidden-xs container_60 header-wrapper'>
-                    <div>
-                        <ul className='nav-ul '>
-                            <li>
-                                <Link to={`/projects`}>
-                                    <img className='logo' src='/images/header-logo.png' alt=""/>
-                                </Link>
-                            </li>
-                            {navList.map(nav => (
-                                <li
-                                    key={nav.label}
-                                    onClick={() => this.switchRoute(nav.label)}
-                                    className={currentNav === nav.label ? 'active' : ''}>
-                                    <Link to={`/${nav.label}`}>{nav.value.charAt(0).toUpperCase() + nav.value.slice(1)}</Link>
-                                </li>
-                            ))}
-                        </ul>
+            <div id='common-header' className={`${isDarkBg ? 'color-black' : 'color-white'}`}>
+                <div className='header-box'>
+                    <div className='header-visible'>
+                        <Link to='/projects'>XIEHUI DESIGN</Link>
                     </div>
 
-                    <ul className='lang-ul'>
-                        {antdLocales.map(locale => (
-                            <li key={locale.label} className={currentLanguage === locale.value ? 'active' : ''}
-                                onClick={() => setLang(locale)}><a>
-                                {locale.value}
-                            </a></li>
-                        ))}
-                    </ul>
-                </div>
+                    <div className='hidden-xs header-wrapper'>
+                        <div>
+                            <ul className='nav-ul '>
+                                {navList.map(nav => (
+                                    <li
+                                        key={nav.label}
+                                        onClick={() => this.switchRoute(nav.label)}
+                                        className={currentNav === nav.label ? 'active' : ''}>
+                                        <Link to={`/${nav.label}`}>
+                                            {nav.value && nav.value.charAt(0).toUpperCase() + nav.value.slice(1)}
+                                        </Link>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
 
-                <div className='hidden-lg hidden-md hidden-sm header-visible'>
-                    <Link to='/projects'>XIEHUI DESIGN</Link>
-                </div>
-
-                {!isShowNav &&
-                <div className='wow fadeInUp hidden-lg hidden-md hidden-sm add' onClick={() => {
-                    this.setState({isShowNav: true})
-                }}>+</div>
-                }
-                <div className={`wow fadeInUp phone-nav-switch ${isShowNav ? '' : 'display-none'}`}>
-                    <ul className='phone-nav-ul '>
-                        {navList.map(nav => (
-                            <li
-                                key={nav.label}
-                                onClick={() => this.switchRoute(nav.label)}
-                                className={currentNav === nav.label ? 'active' : ''}>
-                                <Link to={`/${nav.label}`}> {nav.value}</Link>
-                            </li>
-                        ))}
-                    </ul>
-                    <div className="close-x" onClick={() => {
-                        this.setState({isShowNav: false})
-                    }}>×
+                        <ul className='lang-ul'>
+                            {antdLocales.map(locale => (
+                                <li key={locale.label} className={currentLanguage === locale.value ? 'active' : ''}
+                                    onClick={() => setLang(locale)}><a>
+                                    {locale.value}
+                                </a></li>
+                            ))}
+                        </ul>
                     </div>
                 </div>
             </div>

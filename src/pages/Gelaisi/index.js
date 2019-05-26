@@ -15,7 +15,7 @@ class Gelaisi extends Component {
             category: dict && dict.CATEGORY_WEBSITE
         }
         return (
-            <div className='work-gelaisi content'>
+            <div className='padding-top work-gelaisi content'>
                 <Introduce keyWords={keyWords}/>
 
                 <div className='design-pics'>

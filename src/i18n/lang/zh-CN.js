@@ -1,9 +1,10 @@
 
 module.exports = {
-    NAV_TITLE_01: `項目`,
-    NAV_TITLE_02: `影像`,
-    NAV_TITLE_03: `關於`,
-    NAV_TITLE_04: `聯繫`,
+    NAV_TITLE_01: `首頁`,
+    NAV_TITLE_02: `日記`,
+    NAV_TITLE_03: `肖像`,
+    NAV_TITLE_04: `關於`,
+    NAV_TITLE_05: `聯繫`,
 
     WORKER_NAME: `谢辉`,
     WORKER_DESIGNER: `設計`,

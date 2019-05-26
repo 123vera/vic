@@ -17,7 +17,7 @@ class InfluenceChain extends Component {
             url: 'gbib.net'
         }
         return (
-            <div className='work-gbib content'>
+            <div className='padding-top work-gbib content'>
                 <Introduce keyWords={keyWords}/>
 
                 <div className='design-pics'>

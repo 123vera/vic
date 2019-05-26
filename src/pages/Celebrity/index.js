@@ -15,7 +15,7 @@ class Celebrity extends Component {
             category: dict && dict.CATEGORY_WEBSITE,
         }
         return (
-            <div className='work-celebrity content'>
+            <div className='padding-top work-celebrity content'>
                 <Introduce keyWords={keyWords}/>
 
                 <div className='design-pics'>

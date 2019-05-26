@@ -15,7 +15,7 @@ class Spot extends Component {
             category: dict && dict.CATEGORY_APP,
         }
         return (
-            <div className=' work-spot content'>
+            <div className='padding-top work-spot content'>
                 <Introduce keyWords={keyWords}/>
 
                 <div className='design-pics'>

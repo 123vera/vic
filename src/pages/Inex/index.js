@@ -15,7 +15,7 @@ class Inex extends Component {
             category: dict && dict.CATEGORY_APP,
         }
         return (
-            <div className='work-inex content'>
+            <div className='padding-top work-inex content'>
                 <Introduce keyWords={keyWords}/>
 
                 <div className='design-pics'>

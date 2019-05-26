@@ -16,7 +16,7 @@ class DesignInc extends Component {
         }
 
         return (
-            <div className='work-design-inc content'>
+            <div className='padding-top work-design-inc content'>
                 <Introduce keyWords={keyWords}/>
 
                 <div className='design-pics'>

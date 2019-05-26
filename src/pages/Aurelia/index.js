@@ -15,7 +15,7 @@ class Aurelia extends Component {
             category: dict && dict.CATEGORY_WEB
         }
         return (
-            <div className='work-aurelia content'>
+            <div className='padding-top work-aurelia content'>
                 <Introduce keyWords={keyWords}/>
 
                 <div className='design-pics'>

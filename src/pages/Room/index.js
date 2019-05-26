@@ -56,7 +56,7 @@ class Room extends Component {
             category: dict && dict.CATEGORY_VIDEO,
         }
         return (
-            <div className='work-room content'>
+            <div className='padding-top work-room content'>
                 <Introduce keyWords={keyWords}/>
 
                 <div className='design-pics'>

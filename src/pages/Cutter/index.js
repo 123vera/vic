@@ -8,7 +8,6 @@ import './index.scss'
 class Cutter extends Component {
     render() {
         const language = ensureLanguage()
-        console.log(language)
         const dict = DICT && DICT[language]
         const keyWords = {
             title: 'Visual design',
@@ -17,7 +16,7 @@ class Cutter extends Component {
         }
 
         return (
-            <div className='work-cutter content'>
+            <div className='padding-top work-cutter content'>
                 <Introduce keyWords={keyWords}/>
 
                 <div className='design-pics'>

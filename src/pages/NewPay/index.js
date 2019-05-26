@@ -15,7 +15,7 @@ class NewPay extends Component {
             category: dict && dict.CATEGORY_WEB,
         }
         return (
-            <div className='work-new-pay content'>
+            <div className='padding-top work-new-pay content'>
                 <Introduce keyWords={keyWords}/>
 
                 <div className='design-pics'>

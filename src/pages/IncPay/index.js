@@ -17,7 +17,7 @@ class IncPay extends Component {
             url: 'incpay.org'
         }
         return (
-            <div className='work-incPay content'>
+            <div className='padding-top work-incPay content'>
                 <Introduce keyWords={keyWords}/>
 
                 <div className='design-pics'>

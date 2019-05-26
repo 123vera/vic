@@ -15,7 +15,7 @@ class Poster extends Component {
             category: dict && dict.CATEGORY_PHOTO
         }
         return (
-            <div className='work-poster content'>
+            <div className='padding-top work-poster content'>
                 <Introduce keyWords={keyWords}/>
 
                 <div className='design-pics'>

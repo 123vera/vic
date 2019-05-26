@@ -15,7 +15,7 @@ class Arulai extends Component {
             category: dict && dict.CATEGORY_VISUAL_DESIGN,
         }
         return (
-            <div className='work-arulai content'>
+            <div className='padding-top work-arulai content'>
                 <Introduce keyWords={keyWords}/>
 
                 <div className='design-pics'>

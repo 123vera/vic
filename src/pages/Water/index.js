@@ -15,7 +15,7 @@ class Water extends Component {
             category: dict && dict.CATEGORY_APP
         }
         return (
-            <div className='work-water content'>
+            <div className='padding-top work-water content'>
                 <Introduce keyWords={keyWords}/>
 
                 <div className='design-pics'>

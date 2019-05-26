@@ -16,7 +16,7 @@ class Contact extends Component {
         const language = ensureLanguage()
         const dict = DICT && DICT[language]
         return (
-            <div id='about' className='wow fadeInRight container'>
+            <div id='about' className='padding-top wow fadeInRight container'>
                 <div className='row wrapper'>
                     <div className='column col-lg-5 col-md-5 col-sm-5 hidden-xs img-wrapper'>
                         <img src='/images/about.png' alt=''/>

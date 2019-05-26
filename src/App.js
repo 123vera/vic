@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Route, Switch} from 'react-router-dom'
 import Loadable from 'react-loadable'
+import {DEFAULT_LANGUAGE} from './i18n'
 import {Layout, LocaleProvider} from 'antd';
 import {ensureLanguage, setCookie, setLanguage} from "./utils/utils";
 import CommonHeader from "./components/common/CommonHeader";
@@ -9,11 +10,6 @@ import ErrorBoundary from './components/common/ErrorBoundary'
 import Loading from './components/common/Loading'
 import './App.css';
 
-
-const Text = Loadable({
-    loader: () => import('./pages/Text'),
-    loading: Loading
-})
 const LabContainer = Loadable({
     loader: () => import('./components/common/Loading'),
     loading: Loading
@@ -174,34 +170,30 @@ const About = Loadable({
     loading: Loading
 })
 
-
-const antdLocales = [
-    {
-        label: 'zh-CN',
-        value: 'CN'
-    }, {
-        label: 'en-US',
-        value: 'US'
-    }
-]
+const Portrait = Loadable({
+    loader: () => import('./pages/Portrait'),
+    loading: Loading
+})
 
 class App extends Component {
     state = {
-        language: 'zh-CN',
-        currentLanguage: 'CN',
+        language: DEFAULT_LANGUAGE,
+        currentLanguage: 'US',
     }
 
     componentDidMount() {
         this.initLanguage()
+
+        const mainDom = document.getElementById('main').children[0]
+        mainDom.style = 'padding-top: 20%'
     }
 
     // 初始化语言
     initLanguage = () => {
         const language = ensureLanguage()
-        console.log('dddd' + language)
-        // const lang = antdLocales.find(item=>item.value===)
         setCookie('language', language)
         this.setLang(language)
+        return null;
     }
 
     // 设置语言
@@ -210,24 +202,31 @@ class App extends Component {
         this.setState({language: locale.label, currentLanguage: locale.value}, () => {
             setLanguage(locale.label)
         })
+        return null;
     }
 
+
     render() {
-        // const antdLocale = antdLocales[language]
-        const {currentLanguage = 'CN', language = 'zh-CN'} = this.state
+        const {currentLanguage = 'US', language = DEFAULT_LANGUAGE} = this.state
+        const darkList = ['/projects', '/portrait', '/images']
+        const isDarkBg = !darkList.includes(window.location.pathname)
         return (
             <ErrorBoundary>
                 <LocaleProvider>
                     <div id='app'>
                         <Layout>
-                            <CommonHeader language={language} currentLanguage={currentLanguage}
-                                          setLang={this.setLang}/>
-                            <main>
+                            <CommonHeader
+                                isDarkBg={isDarkBg}
+                                language={language}
+                                currentLanguage={currentLanguage}
+                                setLang={this.setLang}/>
+                            <main id='main'>
                                 <Switch>
                                     <Route path='/' component={InitPage} exact/>
                                     <Route path='/projects' component={Projects}/>
                                     <Route path='/lab' component={LabContainer}/>
                                     <Route path='/images' strict component={Images}/>
+                                    <Route path='/portrait' strict component={Portrait}/>
                                     <Route path='/about' strict component={About}/>
                                     <Route path='/contact' component={Contact}/>
                                     <Route path='/influence-chain' strict component={InfluenceChain}/>
@@ -255,7 +254,6 @@ class App extends Component {
                                     <Route path='/aurelia' strict component={Aurelia}/>
                                     <Route path='/SFI' strict component={SFI}/>
                                     <Route path='/new-pay' strict component={NewPay}/>
-                                    <Route path='/Text' strict component={Text}/>
                                     <Route path='/Inex' strict component={Inex}/>
                                 </Switch>
                             </main>

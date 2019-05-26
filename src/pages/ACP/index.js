@@ -16,7 +16,7 @@ class ACP extends Component {
         }
 
         return (
-            <div className='work-acp content'>
+            <div className='padding-top work-acp content'>
                 <Introduce keyWords={keyWords}/>
 
                 <div className='design-pics'>

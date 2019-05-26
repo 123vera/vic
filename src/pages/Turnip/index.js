@@ -15,7 +15,7 @@ class Turnip extends Component {
             category: dict && dict.CATEGORY_VISUAL_DESIGN,
         }
         return (
-            <div className='work-turnip content'>
+            <div className='padding-top work-turnip content'>
                 <Introduce keyWords={keyWords}/>
 
                 <div className='design-pics'>

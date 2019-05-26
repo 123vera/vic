@@ -17,7 +17,7 @@ class Dlab extends Component {
             url: 'dlab.com.cn'
         }
         return (
-            <div className='work-dlab content'>
+            <div className='padding-top work-dlab content'>
                 <Introduce keyWords={keyWords}/>
 
                 <div className='design-pics'>

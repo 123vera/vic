@@ -16,7 +16,7 @@ class Stec extends Component {
             url: 'steclab.com'
         }
         return (
-            <div className=' work-stec content'>
+            <div className='padding-top work-stec content'>
                 <Introduce keyWords={keyWords}/>
 
                 <div className='design-pics'>

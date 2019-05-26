@@ -6,48 +6,74 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  min-height: calc(100vh - 136px);
+  min-height: calc(100vh - 250px);
   background-color: $theme-color-bg-content;
 
-  .wrapper {
-    max-width: 1190px;
-    //width: 100%;
+  .contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 1000px;
     margin: 0 auto;
+    padding: 50px 0;
 
-  }
+    .msg {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      width: 426px;
 
-  .msg {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-
-    li {
-      line-height: 1.4;
-      box-sizing: border-box;
-      padding: 30px 0;
-      border-bottom: 2px solid #dadada;
+      li {
+        line-height: 1.4;
+        box-sizing: border-box;
+        padding: 30px 0;
+        border-bottom: 2px solid #dadada;
+      }
     }
-  }
 
-  .hidden-md, .hidden-lg, .hidden-sm {
-    &.img-wrapper-xs {
-      overflow: hidden;
-      text-align: center;
+    #map-container {
+      width: 460px;
+      height: 256px;
 
-      img {
-        max-width: 250px;
-        width: 70%;
-        margin-bottom: 2%;
+      .amap-logo {
+        display: none;
       }
     }
   }
 
-  .img-wrapper {
+  @media screen and (max-width: 1080px) {
+    min-height: calc(100vh);
+  }
 
-    img {
-      margin: 0 auto;
-      width: 393px;
-      height: 185px;
+  @media screen and (max-width: 1080px) {
+    .contact-wrapper {
+      width: 100%;
+      height: 100%;
+      flex-direction: column;
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+
+      .msg {
+        list-style: none;
+        margin: 0;
+        padding: 0 30px;
+        width: 100%;
+
+        li {
+          box-sizing: border-box;
+          padding: 15px 0;
+        }
+      }
+
+      #map-container {
+        margin-top: 30px;
+        width: 90%;
+        height: 0;
+        padding-bottom: 80%;
+      }
     }
   }
 }

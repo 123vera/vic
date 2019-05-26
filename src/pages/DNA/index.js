@@ -15,7 +15,7 @@ class DNA extends Component {
             category: dict && dict.CATEGORY_VISUAL_DESIGN,
         }
         return (
-            <div className='work-dna content'>
+            <div className='padding-top work-dna content'>
                 <Introduce keyWords={keyWords}/>
 
                 <div className='design-pics'>

@@ -10,7 +10,7 @@ const worksList = [
             link: '/influence-chain'
         }, {
             img: 'images/works-2.png',
-            link: ''
+            link: '/inex'
         }, {
             img: 'images/works-3.png',
             link: '/inc-pay'
