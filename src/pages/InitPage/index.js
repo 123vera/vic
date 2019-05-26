@@ -10,8 +10,6 @@ class Index extends Component {
                     <div className="circle-inner"/>
                 </div>
             </Link>
-
-
         </div>
     }
 }

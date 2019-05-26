@@ -21,7 +21,7 @@ class CommonFooter extends Component {
                         </ul>
                         <ul className='column col-lg-3 col-md-3 col-sm-3'>
                             <li>follow</li>
-                            <li>Instagram</li>
+                            <li><a href='https://www.instagram.com/x.h.vic/'>Instagram</a></li>
                         </ul>
                     </div>
 
