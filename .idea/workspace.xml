@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccee08b9-d1ef-406e-980b-7a879a7a8f86" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/CommonFooter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/CommonFooter/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/CommonFooter/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/CommonFooter/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/CommonHeader/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/CommonHeader/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/partials/Recommend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/partials/Recommend/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/partials/Recommend/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/partials/Recommend/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Contact/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contact/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Contact/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contact/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Images/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Images/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Images/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Images/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Portrait/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Portrait/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Room/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Room/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/TeamLab/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamLab/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Portrait/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Portrait/index.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -87,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/Portrait/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="52" column="26" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+            <state relative-caret-position="333">
+              <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -170,7 +157,6 @@
         <option value="$PROJECT_DIR$/src/pages/Projects/index.scss" />
         <option value="$PROJECT_DIR$/src/pages/Projects/index.js" />
         <option value="$PROJECT_DIR$/src/pages/About/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/Portrait/index.scss" />
         <option value="$PROJECT_DIR$/src/pages/ACP/index.js" />
         <option value="$PROJECT_DIR$/src/pages/Arulai/index.js" />
         <option value="$PROJECT_DIR$/src/pages/Aurelia/index.js" />
@@ -211,6 +197,7 @@
         <option value="$PROJECT_DIR$/src/pages/TeamLab/index.js" />
         <option value="$PROJECT_DIR$/src/pages/Room/index.js" />
         <option value="$PROJECT_DIR$/src/pages/Portrait/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/Portrait/index.scss" />
       </list>
     </option>
   </component>
@@ -373,7 +360,7 @@
       <workItem from="1558791444364" duration="5535000" />
       <workItem from="1558851482132" duration="21137000" />
       <workItem from="1558920889561" duration="37000" />
-      <workItem from="1558924195947" duration="2871000" />
+      <workItem from="1558924195947" duration="3060000" />
     </task>
     <task id="LOCAL-00001" summary="改问题">
       <created>1558887761938</created>
@@ -386,11 +373,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161202000" />
+    <option name="totallyTimeSpent" value="161391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="109" y="23" width="1361" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32014924" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -892,8 +878,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Portrait/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="52" column="26" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+        <state relative-caret-position="333">
+          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
