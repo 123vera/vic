@@ -32,13 +32,16 @@ imagesList.map(images => {
 const SimpleSwiper = (props) => {
     const [swiper, updateSwiper] = useState(null);
 
-    const goNext = () => {
+    const goNext = e => {
+         e.stopPropagation()
         if (swiper !== null) {
             swiper.slideNext();
         }
     };
 
-    const goPrev = () => {
+    const goPrev = e => {
+        e.stopPropagation()
+
         if (swiper !== null) {
             swiper.slidePrev();
         }
@@ -49,13 +52,14 @@ const SimpleSwiper = (props) => {
             <Swiper key={new Date()} initialSlide={props.currSlide} getSwiper={updateSwiper} modules={[Navigation]}>
                 {swiperList.map(item => (
                     <div key={item} className='row img-box'>
-                        <img alt='' className='img-swiper column col-lg-12  col-md-12 col-sm-12 col-xs-12' src={item}/>
+                        <div className='column col-lg-12  col-md-12 col-sm-12 col-xs-12'>
+                            <img width='100%' alt='' className='img-swiper' src={item}/>
+                        </div>
                     </div>
                 ))}
             </Swiper>
             <button className='next' onClick={goNext}> &lt; </button>
         </div>
-
     )
 }
 
@@ -95,11 +99,11 @@ class Images extends Component {
                         </div>
                     ))}
                 </section>
-                <div className={[`modal-swiper  ${isShowModel ? '' : 'display-none'}`]}>
+                <div className={[`modal-swiper  ${isShowModel ? '' : 'display-none'}`]} onClick={e => {
+                    this.setState({isShowModel: false})
+                }}>
                     <span className='close-swiper' onClick={() => {
-                        this.setState({
-                            isShowModel: false
-                        })
+                        this.setState({isShowModel: false})
                     }}><img src='/images/close-swiper.svg' alt=''/></span>
                     <SimpleSwiper currSlide={currSlide}/>
                 </div>

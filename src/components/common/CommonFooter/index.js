@@ -33,6 +33,7 @@ class CommonFooter extends Component {
         const {isShowBack, isShowNav, currentNav} = this.state
         const {language} = this.props
         const dict = DICT && DICT[language]
+        const grayList = ['/images', '/images/', '/video', '/video/']
         const navList = [
             {
                 label: 'projects',
@@ -56,7 +57,7 @@ class CommonFooter extends Component {
         ]
         return (
             <div id='common-footer'>
-                <section className={`row  hidden-xs main ${window.location.pathname === '/images' ? 'bg-gray' : ''}`}>
+                <section className={`row  hidden-xs main ${grayList.find(i => window.location.pathname === i)? 'bg-gray' : ''}`}>
                     <div className='main-wrapper'>
                         <ul className='column col-lg-3 col-md-3 col-sm-3'>
                             <li>info</li>
@@ -78,7 +79,7 @@ class CommonFooter extends Component {
                     window.scrollTo(0, 0)
                 }}/>}
                 <div className='rights'>
-                    <span>&#169; 2019 Hui Xie.All rights reserved.</span>
+                    <span>&#169; 2019 Xie Hui.All rights reserved.</span>
                     <img src='/images/footer.png' alt=''/>
                 </div>
 

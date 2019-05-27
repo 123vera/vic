@@ -170,8 +170,8 @@ const About = Loadable({
     loading: Loading
 })
 
-const Portrait = Loadable({
-    loader: () => import('./pages/Portrait'),
+const Video = Loadable({
+    loader: () => import('./pages/Video'),
     loading: Loading
 })
 
@@ -208,7 +208,7 @@ class App extends Component {
 
     render() {
         const {currentLanguage = 'US', language = DEFAULT_LANGUAGE} = this.state
-        const darkList = ['/projects', '/portrait', '/images']
+        const darkList = ['/projects', '/video', '/images','/images/', '/video/']
         const isDarkBg = !darkList.includes(window.location.pathname)
         return (
             <ErrorBoundary>
@@ -226,7 +226,7 @@ class App extends Component {
                                     <Route path='/projects' component={Projects}/>
                                     <Route path='/lab' component={LabContainer}/>
                                     <Route path='/images' strict component={Images}/>
-                                    <Route path='/portrait' strict component={Portrait}/>
+                                    <Route path='/video' strict component={Video}/>
                                     <Route path='/about' strict component={About}/>
                                     <Route path='/contact' component={Contact}/>
                                     <Route path='/influence-chain' strict component={InfluenceChain}/>

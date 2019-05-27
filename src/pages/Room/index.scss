@@ -9,8 +9,8 @@
     position: relative;
     box-sizing: border-box;
     padding: 55px 0;
-    border-top: 2px solid $theme-color-border;
-    border-bottom: 2px solid $theme-color-border;
+    border-top: 1px solid $theme-color-border;
+    border-bottom: 1px solid $theme-color-border;
 
     .pics {
       width: 100%;
@@ -20,8 +20,8 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      width: 86px;
-      height: 86px;
+      width: 20%;
+      height: 20%;
     }
   }
 }

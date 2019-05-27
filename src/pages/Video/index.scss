@@ -1,0 +1,51 @@
+@import '../../styles/_common.scss';
+
+#video {
+  background-color: $theme-color-bg-gray;
+
+  .video-wrapper {
+    box-sizing: border-box;
+    padding: 55px 0;
+    width: 80%;
+    max-width: $page-safe-width;
+    margin: 0 auto;
+
+    .box {
+      position: relative;
+
+      video {
+        width: 100%;
+      }
+
+      .pics {
+        width: 100%;
+      }
+
+      .video-play {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        cursor: pointer;
+        transform: translate(-50%, -50%);
+        width: 20%;
+        height: 20%;
+      }
+    }
+
+    .desc-p {
+      margin-top: 20px;
+
+      p {
+        font-size: 14px;
+        color: #d7dbdd;
+
+        &:first-child {
+          color: #fff;
+          letter-spacing: 1px;
+          font-weight: bolder;
+        }
+      }
+    }
+  }
+
+}

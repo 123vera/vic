@@ -3,7 +3,6 @@
 #images {
   height: 100%;
   background-color: $theme-color-bg-gray;
-  //padding-top: 10%;
   box-sizing: border-box;
   text-align: center;
 
@@ -49,7 +48,9 @@
     }
 
     .swiper-box {
-      height: 100%;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -71,9 +72,9 @@
         }
 
         .img-swiper {
+          width: 75%;
           overflow: hidden;
           max-width: 750px;
-          text-align: center;
         }
       }
 

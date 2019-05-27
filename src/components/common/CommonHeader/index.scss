@@ -6,15 +6,19 @@
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
-  z-index: 6;
+  z-index: 4;
   background-color: transparent;
 
-  &.color-black a {
-    color: #000 !important;
+  &.color-black {
+    .lang-li, a {
+      color: #000 !important;
+    }
   }
 
-  &.color-white a {
-    color: #fff !important;
+  &.color-white {
+    .lang-li, a {
+      color: #fff !important;
+    }
   }
 
   .header-box {
@@ -46,7 +50,6 @@
       background-color: transparent;
 
       $width-left: 80%;
-
 
       a {
         text-decoration: none;
@@ -111,7 +114,7 @@
           text-align: left;
 
           &.active {
-            a::before {
+            &::before {
               content: '';
               display: inline-block;
               width: 52%;

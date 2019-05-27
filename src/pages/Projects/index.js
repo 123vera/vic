@@ -267,7 +267,7 @@ class Projects extends Component {
                     <div className='row banner-desc'>
                         <p>
                             <span className='split-part'
-                                  style={{transitionDelay: '2310ms'}}>Hui Xie, </span>
+                                  style={{transitionDelay: '2310ms'}}>Xie Hui, </span>
                             <span className='split-part'
                                   style={{transitionDelay: '10760ms'}}>UI、WEB Designer. </span>
                             <span className='split-part'

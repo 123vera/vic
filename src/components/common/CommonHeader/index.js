@@ -36,7 +36,7 @@ class CommonHeader extends Component {
                 value: dict && dict.NAV_TITLE_02,
             },
             {
-                label: 'portrait',
+                label: 'video',
                 value: dict && dict.NAV_TITLE_03,
             },
             {
@@ -60,9 +60,9 @@ class CommonHeader extends Component {
                             <ul className='nav-ul '>
                                 {navList.map(nav => (
                                     <li
-                                        key={nav.label}
+                                        key={nav.value}
                                         onClick={() => this.switchRoute(nav.label)}
-                                        className={currentNav === nav.label ? 'active' : ''}>
+                                        className={nav.label === currentNav ? 'active' : ''}>
                                         <Link to={`/${nav.label}`}>
                                             {nav.value && nav.value.charAt(0).toUpperCase() + nav.value.slice(1)}
                                         </Link>
@@ -73,10 +73,12 @@ class CommonHeader extends Component {
 
                         <ul className='lang-ul'>
                             {antdLocales.map(locale => (
-                                <li key={locale.label} className={currentLanguage === locale.value ? 'active' : ''}
-                                    onClick={() => setLang(locale)}><a>
+                                <li
+                                    key={locale.value}
+                                    className={`lang-li ${locale.value === currentLanguage ? 'active' : ''}`}
+                                    onClick={() => setLang(locale)}>
                                     {locale.value}
-                                </a></li>
+                                </li>
                             ))}
                         </ul>
                     </div>

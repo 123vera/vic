@@ -64,17 +64,17 @@ class TeamLab extends Component {
                 <div className='design-pics'>
                     <video
                         id='video'
-                        type="video/mp4"
+                        type='video/mp4'
                         width='100%'
                         src='/video/teamlab.mp4'
                         poster='/images/team-lab.png'
                         preload="none"
                         controlsList="nodownload"
                         playsInline={true}   // 小屏播放
-                        webkit-playsinline="true"  // ios系统下小屏播放
+                        webkit-playsinline='true'  // ios系统下小屏播放
                         x5-video-player-type="h5"
                     />
-                    <img alt='' src='/images/video-play.svg' alt='' id="videoPalse" className='video-play' onClick={this.toPlay}/>
+                    <img src='/images/video-play.svg' alt='' id="videoPalse" className='video-play' onClick={this.toPlay}/>
                 </div>
                 <Recommend/>
             </div>

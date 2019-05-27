@@ -84,15 +84,15 @@
   .add {
     position: fixed;
     bottom: 0;
-    font-size: 50px;
-    font-weight: 500;
+    font-size: 70px;
     width: 100%;
     height: 50px;
-    line-height: 40px;
+    line-height: 50px;
     background: rgba(0, 0, 0, 1);
     text-align: center;
     color: #ffffff;
     z-index: 20;
+    font-family: monospace;
   }
 
   .phone-nav-switch {
@@ -143,7 +143,7 @@
           text-align: center;
           font-size: 80px;
           line-height: 0.9em;
-          font-weight: 400;
+          //font-weight: 400;
           font-family: monospace;
           color: #fff;
         }

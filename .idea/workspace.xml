@@ -2,7 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccee08b9-d1ef-406e-980b-7a879a7a8f86" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/pages/Portrait/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Portrait/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Video/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Video/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/CommonFooter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/CommonFooter/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/CommonFooter/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/CommonFooter/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/CommonHeader/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/CommonHeader/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/CommonHeader/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/CommonHeader/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/i18n/lang/en-US.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n/lang/en-US.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/i18n/lang/zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n/lang/zh-CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ACP/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ACP/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Arulai/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Arulai/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Aurelia/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Aurelia/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Celebrity/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Celebrity/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CoffeeBag/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CoffeeBag/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Cutter/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Cutter/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/DNA/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/DNA/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/DesignInc/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/DesignInc/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Dlab/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dlab/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Gbib/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Gbib/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Gelaisi/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Gelaisi/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Images/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Images/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Images/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Images/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/IncPay/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/IncPay/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Inex/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Inex/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/InfluenceChain/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/InfluenceChain/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/NewPay/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NewPay/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Photo/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Photo/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Portrait/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Portrait/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Poster/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Poster/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Projects/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Projects/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Room/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Room/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SFI/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SFI/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Spot/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Spot/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Stec/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Stec/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TeamLab/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamLab/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TeamLab/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamLab/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Turnip/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Turnip/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Water/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Water/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Wayki/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Wayki/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Zan/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Zan/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_variables.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,82 +58,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/common/CommonHeader/index.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="116" column="13" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/Contact/index.js">
+        <entry file="file://$PROJECT_DIR$/src/components/common/CommonHeader/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="365">
+              <caret line="77" column="55" lean-forward="true" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="55" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/Contact/index.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/Images/index.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/_common.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/Images/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/Portrait/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/partials/Recommend/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="116" column="23" lean-forward="true" selection-start-line="116" selection-start-column="23" selection-end-line="116" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-                <element signature="e#2940#3846#0" />
               </folding>
             </state>
           </provider>
@@ -100,27 +83,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#container</find>
-      <find>.add</find>
-      <find>.banner-desc</find>
-      <find>808080</find>
-      <find>Link</find>
-      <find>recommend-item</find>
-      <find>console.l</find>
-      <find>scrollBarTop</find>
-      <find>img-box</find>
-      <find>works</find>
-      <find>phone-nav-ul</find>
-      <find>navList</find>
-      <find>header-visible</find>
-      <find>common-h</find>
-      <find>$width-left</find>
-      <find>room</find>
-      <find>isHeaderDark</find>
-      <find>Loading</find>
-      <find>.modal-swiper</find>
       <find>#about</find>
-      <find>add {</find>
       <find>#common-footer</find>
       <find>map-container</find>
       <find>.contact-wrapper</find>
@@ -130,10 +93,31 @@
       <find>modal-swiper</find>
       <find>ommon-footer</find>
       <find>&lt;img</find>
+      <find>.modal-swiper</find>
+      <find>add {</find>
+      <find>Hui Xie</find>
+      <find>border:</find>
+      <find>design-pics</find>
+      <find>border-top</find>
+      <find>$theme-color-border</find>
+      <find>2px solid $theme-color-border</find>
+      <find>.swiper-container</find>
+      <find>.swiper-box</find>
+      <find>img-box</find>
+      <find>video</find>
+      <find>toPlay</find>
+      <find>videoPalse</find>
+      <find>playsinline</find>
+      <find>close-x</find>
+      <find>.video-play</find>
+      <find>.add {</find>
+      <find>Consumer</find>
+      <find>length</find>
     </findStrings>
     <replaceStrings>
       <replace>/images/images</replace>
       <replace>jpg</replace>
+      <replace>1px solid $theme-color-border</replace>
       <replace>playsInline</replace>
     </replaceStrings>
     <dirStrings>
@@ -147,57 +131,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pages/InitPage/index.scss" />
-        <option value="$PROJECT_DIR$/src/pages/TeamLab/index.scss" />
-        <option value="$PROJECT_DIR$/src/pages/Room/index.scss" />
-        <option value="$PROJECT_DIR$/src/styles/_variables.scss" />
-        <option value="$PROJECT_DIR$/src/components/common/Loading/index.scss" />
-        <option value="$PROJECT_DIR$/src/i18n/lang/zh-CN.js" />
-        <option value="$PROJECT_DIR$/src/i18n/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/Projects/index.scss" />
-        <option value="$PROJECT_DIR$/src/pages/Projects/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/About/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/ACP/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/Arulai/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/Aurelia/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/Celebrity/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/CoffeeBag/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/Cutter/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/DesignInc/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/Dlab/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/DNA/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/Gbib/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/Gelaisi/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/IncPay/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/Inex/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/InfluenceChain/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/NewPay/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/Poster/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/SFI/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/Spot/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/Stec/index.js" />
         <option value="$PROJECT_DIR$/src/pages/Turnip/index.js" />
         <option value="$PROJECT_DIR$/src/pages/Water/index.js" />
         <option value="$PROJECT_DIR$/src/pages/Wayki/index.js" />
         <option value="$PROJECT_DIR$/src/pages/Zan/index.js" />
         <option value="$PROJECT_DIR$/src/pages/About/index.scss" />
-        <option value="$PROJECT_DIR$/src/i18n/lang/en-US.js" />
-        <option value="$PROJECT_DIR$/src/components/common/CommonHeader/index.scss" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/common/CommonHeader/index.js" />
         <option value="$PROJECT_DIR$/src/pages/Contact/index.js" />
         <option value="$PROJECT_DIR$/src/components/partials/Recommend/index.scss" />
         <option value="$PROJECT_DIR$/src/pages/Contact/index.scss" />
         <option value="$PROJECT_DIR$/src/styles/_common.scss" />
-        <option value="$PROJECT_DIR$/src/pages/Images/index.scss" />
-        <option value="$PROJECT_DIR$/src/components/common/CommonFooter/index.scss" />
         <option value="$PROJECT_DIR$/src/components/partials/Recommend/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/Images/index.js" />
-        <option value="$PROJECT_DIR$/src/components/common/CommonFooter/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/TeamLab/index.js" />
         <option value="$PROJECT_DIR$/src/pages/Room/index.js" />
         <option value="$PROJECT_DIR$/src/pages/Portrait/index.js" />
         <option value="$PROJECT_DIR$/src/pages/Portrait/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/Projects/index.js" />
+        <option value="$PROJECT_DIR$/src/styles/_variables.scss" />
+        <option value="$PROJECT_DIR$/src/pages/Inex/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/InfluenceChain/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/NewPay/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/SFI/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/Aurelia/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/Wayki/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/ACP/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/Gbib/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/Photo/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/Gelaisi/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/Poster/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/Water/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/Zan/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/Spot/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/Stec/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/DNA/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/Turnip/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/Arulai/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/Cutter/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/CoffeeBag/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/Celebrity/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/Images/index.js" />
+        <option value="$PROJECT_DIR$/src/i18n/lang/zh-CN.js" />
+        <option value="$PROJECT_DIR$/src/i18n/lang/en-US.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/pages/Video/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/Images/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/common/CommonFooter/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/Video/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/Room/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/TeamLab/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/common/CommonFooter/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/TeamLab/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/components/common/CommonHeader/index.js" />
+        <option value="$PROJECT_DIR$/src/components/common/CommonHeader/index.scss" />
       </list>
     </option>
   </component>
@@ -223,11 +207,6 @@
             <path>
               <item name="vic" type="b2602c69:ProjectViewProjectNode" />
               <item name="vic" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -241,15 +220,15 @@
               <item name="vic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vic" type="b2602c69:ProjectViewProjectNode" />
               <item name="vic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
-              <item name="Recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="CommonHeader" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vic" type="b2602c69:ProjectViewProjectNode" />
@@ -262,20 +241,21 @@
               <item name="vic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Images" type="462c0819:PsiDirectoryNode" />
+              <item name="About" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vic" type="b2602c69:ProjectViewProjectNode" />
               <item name="vic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Portrait" type="462c0819:PsiDirectoryNode" />
+              <item name="Contact" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vic" type="b2602c69:ProjectViewProjectNode" />
               <item name="vic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="TeamLab" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -360,7 +340,7 @@
       <workItem from="1558791444364" duration="5535000" />
       <workItem from="1558851482132" duration="21137000" />
       <workItem from="1558920889561" duration="37000" />
-      <workItem from="1558924195947" duration="3060000" />
+      <workItem from="1558924195947" duration="12204000" />
     </task>
     <task id="LOCAL-00001" summary="改问题">
       <created>1558887761938</created>
@@ -373,12 +353,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161391000" />
+    <option name="totallyTimeSpent" value="170535000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="109" y="23" width="1361" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32014924" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20074627" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -393,7 +374,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Messages" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.37433156" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.19358289" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -430,71 +411,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="改问题" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/About/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="e#229#348#0" />
-            <element signature="e#362#585#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/About/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Portrait/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/ACP/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Arulai/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Aurelia/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Celebrity/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -625,16 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Room/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/SFI/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -666,16 +572,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Text/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/pages/TeamLab/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Turnip/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -737,131 +633,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="16" selection-start-line="15" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/8eee10abd769bb1fb8a18a6f0eb5e836/Message/MessageTemp/07d8fa9f484d6f8be2be1e1461611567/File/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/i18n/lang/en-US.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" column="451" selection-start-line="32" selection-start-column="451" selection-end-line="32" selection-end-column="451" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/i18n/lang/zh-CN.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/common/CommonHeader/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2088">
-          <caret line="116" column="22" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3492">
-          <caret line="204" column="20" selection-start-line="204" selection-start-column="20" selection-end-line="204" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="n#!!block;n#render#0;n#App#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/common/CommonFooter/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="55" column="9" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="55" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/common/CommonHeader/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="52" column="44" lean-forward="true" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Contact/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/_common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/partials/Recommend/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Contact/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Images/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/common/CommonFooter/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <element signature="e#196#960#0" />
-            <element signature="e#290#887#0" />
-            <element signature="e#435#881#0" />
-            <element signature="e#976#1090#0" />
-            <element signature="e#1102#1366#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Images/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -876,13 +652,212 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Portrait/index.js">
+    <entry file="file://$PROJECT_DIR$/src/styles/_common.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+        <state relative-caret-position="144">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/partials/Introduce/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Inex/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/partials/Recommend/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/i18n/lang/en-US.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/i18n/lang/zh-CN.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Stec/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Room/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Room/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="20" selection-start-line="7" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Video/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="72" column="72" selection-start-line="72" selection-start-column="72" selection-end-line="72" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#3025#3521#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Images/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <folding>
+            <element signature="e#813#2290#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Images/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-805">
+          <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="228" column="52" lean-forward="true" selection-start-line="228" selection-start-column="52" selection-end-line="228" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/CommonFooter/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="53" column="33" lean-forward="true" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Video/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/CommonFooter/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/TeamLab/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="66" column="40" lean-forward="true" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!block;n#browserslist#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Contact/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Contact/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/About/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/CommonHeader/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="77" column="55" lean-forward="true" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/CommonHeader/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="116" column="13" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
         </state>
       </provider>
     </entry>

@@ -2,7 +2,7 @@
 module.exports = {
     NAV_TITLE_01: `首頁`,
     NAV_TITLE_02: `日記`,
-    NAV_TITLE_03: `肖像`,
+    NAV_TITLE_03: `錄像`,
     NAV_TITLE_04: `關於`,
     NAV_TITLE_05: `聯繫`,
 
