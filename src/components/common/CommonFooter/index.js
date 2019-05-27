@@ -74,7 +74,7 @@ class CommonFooter extends Component {
                         </ul>
                     </div>
                 </section>
-                {isShowBack && <img src='/images/to-top.svg' className='row hidden-xs scroll-top' onClick={() => {
+                {isShowBack && <img alt='' src='/images/to-top.svg' className='row hidden-xs scroll-top' onClick={() => {
                     window.scrollTo(0, 0)
                 }}/>}
                 <div className='rights'>

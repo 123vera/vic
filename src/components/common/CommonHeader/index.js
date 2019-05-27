@@ -52,7 +52,7 @@ class CommonHeader extends Component {
             <div id='common-header' className={`${isDarkBg ? 'color-black' : 'color-white'}`}>
                 <div className='header-box'>
                     <div className='header-visible'>
-                        <Link to='/projects'>XIEHUI DESIGN</Link>
+                        <Link to='/projects'>XIEHUI.DESIGN</Link>
                     </div>
 
                     <div className='hidden-xs header-wrapper'>

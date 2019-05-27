@@ -24,7 +24,9 @@ let swiperList = []
 imagesList.map((images) => {
     images.group.map(item => {
         swiperList.push(item)
+        return swiperList
     })
+    return images
 })
 
 const SimpleSwiper = (props) => {
@@ -47,13 +49,12 @@ const SimpleSwiper = (props) => {
             <Swiper key={new Date()} initialSlide={props.currSlide} getSwiper={updateSwiper} modules={[Navigation]}>
                 {swiperList.map(item => (
                     <div key={item} className='row img-box'>
-                        <img className='img-swiper column col-lg-12  col-md-12 col-sm-12 col-xs-12' src={item}/>
+                        <img alt='' className='img-swiper column col-lg-12  col-md-12 col-sm-12 col-xs-12' src={item}/>
                     </div>
                 ))}
             </Swiper>
             <button className='next' onClick={goNext}> &lt; </button>
         </div>
-
     )
 }
 
@@ -72,7 +73,7 @@ class Images extends Component {
     }
 
     toViewModel = (item) => {
-        const number = swiperList.findIndex(image=>item===image) || 0
+        const number = swiperList.findIndex(image => item === image) || 0
         this.setState({isShowModel: true, currSlide: number})
     }
 

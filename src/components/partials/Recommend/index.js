@@ -121,15 +121,17 @@ class Recommend extends Component {
 
     render() {
         let swiperList = []
-        worksList.map((images) => {
+        worksList && worksList.map(images => {
             images.group.map(item => {
                 swiperList.push(item)
+                return swiperList
             })
+            return images
         })
         return (
             <div className='recommend'>
-                <h2>更多项目</h2>
-                <div className='row recommend-wrapper'>
+                <h2>更多</h2>
+                <div className='row wow slideInRight recommend-wrapper'>
                     <div className='column col-lg-4 col-md-4 col-sm-4 hidden-xs recommend-list-pc'>
                         {swiperList.map(item => (
                             <div key={item.img} className='wow fadeInUp recommend-item'>
@@ -146,8 +148,6 @@ class Recommend extends Component {
                         ))}
                     </div>
                 </div>
-
-
             </div>
         )
     }

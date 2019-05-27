@@ -19,9 +19,9 @@ class Contact extends Component {
             let map = new AMap.Map('map-container', {
                 zoom: 16,//级别
                 center: [121.489667, 31.240591],//中心点坐标
-                viewMode: '3D'//使用3D视图
+                viewMode: '3D',//使用3D视图
+                mapStyle: "amap://styles/whitesmoke"
             });
-
             // 添加点标记
             const marker = new AMap.Marker({
                 position: [121.489667, 31.240591]//位置
