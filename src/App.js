@@ -184,7 +184,7 @@ class App extends Component {
     componentDidMount() {
         this.initLanguage()
 
-        const mainDom = document.getElementById('main').children[0]
+        const mainDom = document && document.getElementById('main').children[0]
         mainDom.style = 'padding-top: 20%'
     }
 
@@ -226,7 +226,7 @@ class App extends Component {
                                     <Route path='/projects' component={Projects}/>
                                     <Route path='/lab' component={LabContainer}/>
                                     <Route path='/images' strict component={Images}/>
-                                    <Route path='/video' strict component={Video}/>
+                                    <Route path='/video' component={Video}/>
                                     <Route path='/about' strict component={About}/>
                                     <Route path='/contact' component={Contact}/>
                                     <Route path='/influence-chain' strict component={InfluenceChain}/>

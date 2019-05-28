@@ -6,17 +6,17 @@ import {DICT} from "../../../i18n";
 class CommonFooter extends Component {
     state = {
         currentNav: window.location.pathname.split('/')[1] || 'projects',
-        isShowBack: false,
         isShowNav: false
     }
 
     componentDidMount() {
-        window.onscroll = () => {
+        // 返回顶部按钮
+        /* window.onscroll = () => {
             let scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
             let clientHeight = document.documentElement.clientHeight
             const self = this
             self.setState({isShowBack: scrollTop >= clientHeight})
-        }
+        } */
     }
 
     componentWillUnmount() {
@@ -30,7 +30,7 @@ class CommonFooter extends Component {
 
 
     render() {
-        const {isShowBack, isShowNav, currentNav} = this.state
+        const { isShowNav, currentNav} = this.state
         const {language} = this.props
         const dict = DICT && DICT[language]
         const grayList = ['/images', '/images/', '/video', '/video/']
@@ -43,7 +43,7 @@ class CommonFooter extends Component {
                 value: dict && dict.NAV_TITLE_02,
             },
             {
-                label: 'portrait',
+                label: 'video',
                 value: dict && dict.NAV_TITLE_03,
             },
             {
@@ -75,9 +75,6 @@ class CommonFooter extends Component {
                         </ul>
                     </div>
                 </section>
-                {isShowBack && <img alt='' src='/images/to-top.svg' className='row hidden-xs scroll-top' onClick={() => {
-                    window.scrollTo(0, 0)
-                }}/>}
                 <div className='rights'>
                     <span>&#169; 2019 Xie Hui.All rights reserved.</span>
                     <img src='/images/footer.png' alt=''/>
@@ -92,7 +89,7 @@ class CommonFooter extends Component {
                     }}>+</div>
                 }
                 <div
-                    className={`hidden-lg hidden-md hidden-sm wow fadeInUp phone-nav-switch ${isShowNav ? '' : 'display-none'}`}>
+                    className={`hidden-lg hidden-md hidden-sm wow phone-nav-switch ${isShowNav ? 'display-block fadeInUp' : ''}`}>
                     <ul className='phone-nav-ul'>
                         {navList.map(nav => (
                             <li

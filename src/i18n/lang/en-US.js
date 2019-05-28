@@ -1,5 +1,5 @@
 module.exports = {
-    NAV_TITLE_01: `project`,
+    NAV_TITLE_01: `Project`,
     NAV_TITLE_02: `Image`,
     NAV_TITLE_03: `Video`,
     NAV_TITLE_04: `About`,

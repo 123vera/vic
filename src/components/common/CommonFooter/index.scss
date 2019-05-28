@@ -6,15 +6,15 @@
   left: 0;
   right: 0;
   z-index: 5;
-  border-top: 1px solid #f2f2f2;
 
   .row {
-  margin: 0;
+    margin: 0;
   }
 
   .main {
     padding: 40px 0 80px;
     background-color: $theme-color-bg-content;
+    border-top: 1px solid #f2f2f2;
 
     .main-wrapper {
       display: flex;
@@ -51,6 +51,7 @@
     }
 
     &.bg-gray {
+      border-top-color: #999;
       background-color: $theme-color-bg-gray;
     }
   }
@@ -97,7 +98,7 @@
 
   .phone-nav-switch {
     position: fixed;
-    top: 0;
+    top: 100%;
     bottom: 0;
     left: 0;
     right: 0;
@@ -105,12 +106,13 @@
     color: rgba(255, 255, 255, 0.7) !important;
     background: rgba(0, 0, 0, 0.9);
     z-index: 5;
+    opacity: 0;
     transition: all 0.9s;
 
 
-    &.display-none {
-      opacity: 0;
-      top: 100%;
+    &.display-block {
+      opacity: 1;
+      top: 0;
     }
 
     .phone-nav-ul {
