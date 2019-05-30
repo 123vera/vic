@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccee08b9-d1ef-406e-980b-7a879a7a8f86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/wechat.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/CommonFooter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/CommonFooter/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/CommonFooter/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/CommonFooter/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Contact/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contact/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Contact/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contact/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Projects/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Projects/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Projects/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Projects/index.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,83 +15,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/common/CommonHeader/index.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1872">
-              <caret line="104" column="22" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/common/CommonHeader/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="27" selection-start-line="27" selection-end-line="28" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/common/CommonFooter/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="84" column="118" selection-start-line="84" selection-start-column="118" selection-end-line="84" selection-end-column="118" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-                <element signature="e#2889#3069#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/Projects/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="355" column="68" selection-start-line="355" selection-start-column="68" selection-end-line="355" selection-end-column="68" />
+            <state relative-caret-position="464">
+              <caret line="187" column="10" selection-start-line="187" selection-start-column="10" selection-end-line="187" selection-end-column="10" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
                 <element signature="e#106#3148#0" />
                 <element signature="n#!!block;n#componentDidMount#0;n#Projects#0" />
-                <element signature="e#4701#6078#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/Contact/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/_variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-253">
-              <caret line="220" column="65" selection-start-line="220" selection-start-column="31" selection-end-line="220" selection-end-column="65" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,8 +33,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>border:</find>
-      <find>design-pics</find>
       <find>border-top</find>
       <find>$theme-color-border</find>
       <find>2px solid $theme-color-border</find>
@@ -139,6 +61,8 @@
       <find>isWeChat</find>
       <find>wechart-content</find>
       <find>aside</find>
+      <find>console.l</find>
+      <find>console.lo</find>
     </findStrings>
     <replaceStrings>
       <replace>/images/images</replace>
@@ -202,12 +126,12 @@
         <option value="$PROJECT_DIR$/src/pages/Video/index.js" />
         <option value="$PROJECT_DIR$/src/pages/Video/index.scss" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/pages/Projects/index.js" />
         <option value="$PROJECT_DIR$/src/components/common/CommonFooter/index.scss" />
         <option value="$PROJECT_DIR$/src/pages/Contact/index.scss" />
         <option value="$PROJECT_DIR$/src/pages/Projects/index.scss" />
         <option value="$PROJECT_DIR$/src/components/common/CommonFooter/index.js" />
         <option value="$PROJECT_DIR$/src/pages/Contact/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/Projects/index.js" />
       </list>
     </option>
   </component>
@@ -277,7 +201,7 @@
               <item name="vic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Contact" type="462c0819:PsiDirectoryNode" />
+              <item name="Projects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vic" type="b2602c69:ProjectViewProjectNode" />
@@ -374,7 +298,7 @@
       <workItem from="1559101251142" duration="4062000" />
       <workItem from="1559146196088" duration="205000" />
       <workItem from="1559180203556" duration="367000" />
-      <workItem from="1559189664604" duration="6355000" />
+      <workItem from="1559189664604" duration="6622000" />
     </task>
     <task id="LOCAL-00001" summary="改问题">
       <created>1558887761938</created>
@@ -387,7 +311,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186635000" />
+    <option name="totallyTimeSpent" value="186902000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="546" y="23" width="1071" height="1027" extended-state="0" />
@@ -408,7 +332,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Messages" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.15080214" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.12727273" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -445,16 +369,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="改问题" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pages/Celebrity/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/CoffeeBag/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -832,23 +746,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-253">
+        <state relative-caret-position="-239">
           <caret line="220" column="65" selection-start-line="220" selection-start-column="31" selection-end-line="220" selection-end-column="65" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Projects/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="355" column="68" selection-start-line="355" selection-start-column="68" selection-end-line="355" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-            <element signature="e#106#3148#0" />
-            <element signature="n#!!block;n#componentDidMount#0;n#Projects#0" />
-            <element signature="e#4701#6078#0" />
           </folding>
         </state>
       </provider>
@@ -898,10 +799,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Contact/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
+        <state relative-caret-position="569">
           <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/static/js/33.fc34dda8.chunk.js.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1861">
+          <caret column="937768" selection-start-column="937768" selection-end-column="937768" />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Projects/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="187" column="10" selection-start-line="187" selection-start-column="10" selection-end-line="187" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#106#3148#0" />
+            <element signature="n#!!block;n#componentDidMount#0;n#Projects#0" />
           </folding>
         </state>
       </provider>
