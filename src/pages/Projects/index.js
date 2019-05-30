@@ -138,6 +138,7 @@ const worksList = [
 
 class Projects extends Component {
     state = {
+        size: 3,
         scrollBarTop: 0,
         scrollBarColor: '#fff',
         scrollBarBgColor: 'rgba(255, 255, 255, 0.2)'
@@ -168,7 +169,7 @@ class Projects extends Component {
         let screenWidth, screenHeight, smallerSize;
         const container = document.querySelector('#container')
 
-        const Z_RANGE = 200; // How deep is your love
+        const Z_RANGE = 1200; // How deep is your love
         const Z_VELOCITY = -0.0045; // How fast
         const STARS_COUNT = 2000; // How many
 
@@ -177,12 +178,27 @@ class Projects extends Component {
             screenHeight = 724;
             smallerSize = screenWidth > screenHeight ? screenHeight : screenWidth;
         }
+
         setSizes();
+        // const randomFrom = (lowerValue, upperValue) => {
+        //     return Math.random() * (upperValue - lowerValue + 1) + lowerValue;
+        // }
+        //
+        // const getSize = () => {
+        //     setTimeout(() => {
+        //         getSize()
+        //     }, 1000)
+        //     this.setState({
+        //         size: randomFrom(3.2, 4)
+        //     })
+        // }
+        // getSize()
         const HOLE = {
             x: screenWidth / 2,
             y: screenHeight / 2,
             r: smallerSize / 3.2
         };
+
 
         class Star {
             constructor() {

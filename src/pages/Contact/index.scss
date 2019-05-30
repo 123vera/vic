@@ -30,7 +30,13 @@
         line-height: 1.4;
         box-sizing: border-box;
         padding: 30px 0;
+        cursor: pointer;
         border-bottom: 1px solid #f2f2f2;
+
+        a {
+          color: currentColor;
+          text-decoration: none;
+        }
       }
     }
 
@@ -76,5 +82,42 @@
         padding-bottom: 80%;
       }
     }
+  }
+
+  .wechart-modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 10;
+
+    &.hidden-modal {
+      display: none;
+    }
+
+    .box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30%;
+
+      @media screen and (max-width: 1080px) {
+        width: 50%;
+      }
+
+      .wechart-content {
+        box-sizing: border-box;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+
   }
 }

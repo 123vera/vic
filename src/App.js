@@ -258,7 +258,7 @@ class App extends Component {
                                 </Switch>
                             </main>
 
-                            <CommonFooter language={language} currentLanguage={currentLanguage}/>
+                            <CommonFooter language={language} setLang={this.setLang} currentLanguage={currentLanguage}/>
                         </Layout>
                     </div>
                 </LocaleProvider>

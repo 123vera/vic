@@ -5,6 +5,10 @@ import {ensureLanguage} from "../../utils/utils";
 import './index.scss'
 
 class Contact extends Component {
+    state = {
+        isWeChat: false
+    }
+
     componentDidMount() {
         let wow = new WOW({
             live: false
@@ -36,19 +40,35 @@ class Contact extends Component {
         /* eslint-enable */
     }
 
+    onHandleModal = (status) => {
+        this.setState({isWeChat: !!(status === 'open')})
+    }
+
     render() {
+        const {isWeChat} = this.state
         const language = ensureLanguage()
         const dict = DICT && DICT[language]
         return (
             <div id='contact' className='padding-top wow fadeInRight'>
                 <div className='contact-wrapper'>
                     <ul className='msg'>
-                        <li>vicdesignstyle@gmail.co</li>
-                        <li>Instagram / Wechat / Weibo</li>
+                        <li>vicdesignstyle@gmail.com</li>
+                        <li>
+                            <a href='https://www.instagram.com/x.h.vic/' target='_blank' rel='noreferrer noopener'>Instagram</a> /
+                            <span className='wechat' onClick={() => this.onHandleModal('open')}>Wechat</span>
+                        </li>
                         <li>7th Floor, Bund.27, Shanghai, China,
                             200002 <br/>{dict && dict.CONTACT_ADDRESS}</li>
                     </ul>
-                    <div id='map-container'> </div>
+                    <div id='map-container'></div>
+                </div>
+                <div className={`wechart-modal ${isWeChat ? '' : 'hidden-modal'}`}
+                    onClick={() => this.onHandleModal('close')}>
+                    <div className='box'>
+                        <div className='wechart-content'>
+                            <img src='/images/wechat.jpg' alt=""/>
+                        </div>
+                    </div>
                 </div>
             </div>
         )

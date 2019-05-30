@@ -1,12 +1,13 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
-import './index.scss'
 import {DICT} from "../../../i18n";
+import './index.scss'
 
 class CommonFooter extends Component {
     state = {
         currentNav: window.location.pathname.split('/')[1] || 'projects',
-        isShowNav: false
+        isShowNav: false,
+        isWeChat: false
     }
 
     componentDidMount() {
@@ -30,8 +31,8 @@ class CommonFooter extends Component {
 
 
     render() {
-        const { isShowNav, currentNav} = this.state
-        const {language} = this.props
+        const {isShowNav, currentNav, isWeChat} = this.state
+        const {language, setLang, currentLanguage} = this.props
         const dict = DICT && DICT[language]
         const grayList = ['/images', '/images/', '/video', '/video/']
         const navList = [
@@ -55,9 +56,19 @@ class CommonFooter extends Component {
                 value: dict && dict.NAV_TITLE_05,
             }
         ]
+        const languages = [
+            {
+                label: 'zh-CN',
+                value: 'CN'
+            }, {
+                label: 'en-US',
+                value: 'US'
+            }
+        ]
         return (
             <div id='common-footer'>
-                <section className={`row  hidden-xs main ${grayList.find(i => window.location.pathname === i)? 'bg-gray' : ''}`}>
+                <section
+                    className={`row  hidden-xs main ${grayList.find(i => window.location.pathname === i) ? 'bg-gray' : ''}`}>
                     <div className='main-wrapper'>
                         <ul className='column col-lg-3 col-md-3 col-sm-3'>
                             <li>info</li>
@@ -71,13 +82,28 @@ class CommonFooter extends Component {
                         </ul>
                         <ul className='column col-lg-3 col-md-3 col-sm-3'>
                             <li>follow</li>
-                            <li><a href='https://www.instagram.com/x.h.vic/'>Instagram</a></li>
+                            <li><a href='https://www.instagram.com/x.h.vic/' target='_blank' rel='noreferrer noopener'>Instagram</a></li>
+                            <li><span className='wechat' onClick={() => {
+                                this.setState({isWeChat: true})
+                            }}>Wechat</span></li>
                         </ul>
                     </div>
                 </section>
                 <div className='rights'>
                     <span>&#169; 2019 Xie Hui.All rights reserved.</span>
                     <img src='/images/footer.png' alt=''/>
+                </div>
+
+                <div className={`wechart-modal ${isWeChat ? '' : 'hidden-modal'}`}
+                     onClick={() => {
+                         this.setState({isWeChat: false})
+                     }}>
+                    <div className='box'>
+                        <div className='wechart-content'>
+                            <img src='/images/wechat.jpg' alt=""/>
+                        </div>
+                    </div>
+
                 </div>
 
                 {/* 移动端导航适配 */}
@@ -97,6 +123,15 @@ class CommonFooter extends Component {
                                 onClick={() => this.switchRoute(nav.label)}
                                 className={currentNav === nav.label ? 'active' : ''}>
                                 <Link to={`/${nav.label}`}> {nav.value}</Link>
+                            </li>
+                        ))}
+                        {languages.map(locale => (
+                            locale.value !== currentLanguage &&
+                            <li
+                                key={locale.value}
+                                className={`lang-li ${locale.value === currentLanguage ? 'active' : ''}`}
+                                onClick={() => setLang(locale)}>
+                                {locale.value === 'CN' ? 'Chinese':'英文'}
                             </li>
                         ))}
                         <li>

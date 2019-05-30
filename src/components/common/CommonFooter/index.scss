@@ -34,7 +34,7 @@
 
           a {
             color: #333;
-            text-decoration: none;
+            //text-decoration: none;
           }
 
           &:first-child {
@@ -54,6 +54,47 @@
       border-top-color: #999;
       background-color: $theme-color-bg-gray;
     }
+  }
+
+  .wechart-modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 10;
+
+    &.hidden-modal {
+      display: none;
+    }
+
+    .box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30%;
+
+      @media screen and (max-width: 1080px) {
+        width: 50%;
+      }
+
+      .wechart-content {
+        box-sizing: border-box;
+
+        img {
+          width: 100%;
+        }
+
+        .qrcode {
+          border: 5px solid #fff;
+        }
+      }
+    }
+
   }
 
   .scroll-top {
