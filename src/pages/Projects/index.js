@@ -302,9 +302,9 @@ class Projects extends Component {
                             <span className='split-part'
                                   style={{transitionDelay: '80ms'}}>提供</span>
                             <span className='split-part'
-                                  style={{transitionDelay: '140ms'}}>網站</span>
+                                  style={{transitionDelay: '140ms'}}>網站、</span>
                             <span className='split-part'
-                                  style={{transitionDelay: '30ms'}}>視覺設計、</span>
+                                  style={{transitionDelay: '30ms'}}>App視覺設計、</span>
                             <span className='split-part'
                                   style={{transitionDelay: '90ms'}}>商業設計、</span>
                             <span className='split-part'
