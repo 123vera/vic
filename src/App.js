@@ -15,10 +15,10 @@ const LabContainer = Loadable({
     loading: Loading
 })
 
-const InitPage = Loadable({
-    loader: () => import('./pages/InitPage'),
-    loading: Loading
-})
+// const InitPage = Loadable({
+//     loader: () => import('./pages/InitPage'),
+//     loading: Loading
+// })
 
 const Projects = Loadable({
     loader: () => import('./pages/Projects'),
@@ -222,7 +222,7 @@ class App extends Component {
                                 setLang={this.setLang}/>
                             <main id='main'>
                                 <Switch>
-                                    <Route path='/' component={InitPage} exact/>
+                                    <Route path='/' component={Projects} exact/>
                                     <Route path='/projects' component={Projects}/>
                                     <Route path='/lab' component={LabContainer}/>
                                     <Route path='/images' strict component={Images}/>
