@@ -32,7 +32,7 @@ class CommonHeader extends Component {
                 label: 'projects',
                 value: dict && dict.NAV_TITLE_01,
             }, {
-                label: 'images',
+                label: 'diary',
                 value: dict && dict.NAV_TITLE_02,
             },
             {

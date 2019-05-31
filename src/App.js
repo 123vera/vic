@@ -208,7 +208,7 @@ class App extends Component {
 
     render() {
         const {currentLanguage = 'US', language = DEFAULT_LANGUAGE} = this.state
-        const darkList = ['/projects', '/video', '/images','/images/', '/video/']
+        const darkList = ['/projects', '/video', '/diary','/diary/', '/video/']
         const isDarkBg = !darkList.includes(window.location.pathname)
         return (
             <ErrorBoundary>
@@ -225,7 +225,7 @@ class App extends Component {
                                     <Route path='/' component={Projects} exact/>
                                     <Route path='/projects' component={Projects}/>
                                     <Route path='/lab' component={LabContainer}/>
-                                    <Route path='/images' strict component={Images}/>
+                                    <Route path='/diary' strict component={Images}/>
                                     <Route path='/video' component={Video}/>
                                     <Route path='/about' strict component={About}/>
                                     <Route path='/contact' component={Contact}/>
