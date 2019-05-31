@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ccee08b9-d1ef-406e-980b-7a879a7a8f86" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/CommonFooter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/CommonFooter/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/CommonFooter/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/CommonFooter/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,7 +19,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/Projects/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
+            <state relative-caret-position="306">
               <caret line="168" column="51" selection-start-line="168" selection-start-column="51" selection-end-line="168" selection-end-column="51" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
@@ -34,7 +33,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/common/CommonFooter/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
+            <state relative-caret-position="1638">
               <caret line="91" column="34" lean-forward="true" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
@@ -43,14 +42,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/common/CommonFooter/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="108" column="11" lean-forward="true" selection-start-line="108" selection-start-column="11" selection-end-line="108" selection-end-column="11" />
+            <state relative-caret-position="431">
+              <caret line="189" column="29" lean-forward="true" selection-start-line="189" selection-start-column="29" selection-end-line="189" selection-end-column="29" />
               <folding>
                 <element signature="e#168#999#0" />
                 <element signature="e#912#995#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="485">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!block;n#browserslist#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -146,7 +157,6 @@
         <option value="$PROJECT_DIR$/src/pages/Room/index.scss" />
         <option value="$PROJECT_DIR$/src/pages/TeamLab/index.scss" />
         <option value="$PROJECT_DIR$/src/pages/TeamLab/index.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/common/CommonHeader/index.js" />
         <option value="$PROJECT_DIR$/src/components/common/CommonHeader/index.scss" />
         <option value="$PROJECT_DIR$/src/i18n/lang/en-US.js" />
@@ -159,6 +169,7 @@
         <option value="$PROJECT_DIR$/src/pages/Projects/index.js" />
         <option value="$PROJECT_DIR$/src/components/common/CommonFooter/index.js" />
         <option value="$PROJECT_DIR$/src/components/common/CommonFooter/index.scss" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -173,6 +184,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,7 +246,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -320,7 +331,8 @@
       <workItem from="1559146196088" duration="205000" />
       <workItem from="1559180203556" duration="367000" />
       <workItem from="1559189664604" duration="6742000" />
-      <workItem from="1559268155541" duration="552000" />
+      <workItem from="1559268155541" duration="720000" />
+      <workItem from="1559270123102" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="改问题">
       <created>1558887761938</created>
@@ -333,7 +345,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187574000" />
+    <option name="totallyTimeSpent" value="187761000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="546" y="23" width="1071" height="1027" extended-state="0" />
@@ -742,16 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!block;n#browserslist#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/common/CommonHeader/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1872">
@@ -813,7 +815,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Projects/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
+        <state relative-caret-position="306">
           <caret line="168" column="51" selection-start-line="168" selection-start-column="51" selection-end-line="168" selection-end-column="51" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
@@ -825,7 +827,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/common/CommonFooter/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
+        <state relative-caret-position="1638">
           <caret line="91" column="34" lean-forward="true" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
@@ -835,11 +837,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/common/CommonFooter/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="108" column="11" lean-forward="true" selection-start-line="108" selection-start-column="11" selection-end-line="108" selection-end-column="11" />
+        <state relative-caret-position="431">
+          <caret line="189" column="29" lean-forward="true" selection-start-line="189" selection-start-column="29" selection-end-line="189" selection-end-column="29" />
           <folding>
             <element signature="e#168#999#0" />
             <element signature="e#912#995#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!block;n#browserslist#0;n#!!top" />
           </folding>
         </state>
       </provider>
