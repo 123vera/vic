@@ -90,7 +90,7 @@ class CommonFooter extends Component {
                     </div>
                 </section>
                 <div className='rights'>
-                    <span>&#169; 2019 Xie Hui.All rights reserved.</span>
+                    <span>&#169; 2019 Xie Hui.All rights reserved. 沪ICP备19018315号</span>
                     <img src='/images/footer.png' alt=''/>
                 </div>
 
