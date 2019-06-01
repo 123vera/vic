@@ -15,7 +15,7 @@ const antdLocales = [
 
 class CommonHeader extends Component {
     state = {
-        currentNav: window.location.pathname.split('/')[1] || 'projects',
+        currentNav: window.location.hash.split('/')[1] || 'projects',
         isShowNav: false
     }
     // 切换主页路由

@@ -230,32 +230,32 @@ class App extends Component {
                                     <Route exact path='/video' component={Video}/>
                                     <Route exact path='/about' component={About}/>
                                     <Route exact path='/contact' component={Contact}/>
-                                    <Route path='/influence-chain' strict component={InfluenceChain}/>
-                                    <Route path='/inc-pay' strict component={IncPay}/>
-                                    <Route path='/design-inc' strict component={DesignInc}/>
-                                    <Route path='/dlab' strict component={Dlab}/>
-                                    <Route path='/celebrity' strict component={Celebrity}/>
-                                    <Route path='/teamlab' strict component={TeamLab}/>
-                                    <Route path='/coffee-bag' strict component={CoffeeBag}/>
-                                    <Route path='/cutter' strict component={Cutter}/>
-                                    <Route path='/arulai' strict component={Arulai}/>
-                                    <Route path='/turnip' strict component={Turnip}/>
-                                    <Route path='/room' strict component={Room}/>
-                                    <Route path='/DNA' strict component={DNA}/>
-                                    <Route path='/stec' strict component={Stec}/>
-                                    <Route path='/spot' strict component={Spot}/>
-                                    <Route path='/zan' strict component={Zan}/>
-                                    <Route path='/water' strict component={Water}/>
-                                    <Route path='/poster' strict component={Poster}/>
-                                    <Route path='/gelaisi' strict component={Gelaisi}/>
-                                    <Route path='/photo' strict component={Photo}/>
-                                    <Route path='/GBIB' strict component={GBIB}/>
-                                    <Route path='/ACP' strict component={ACP}/>
-                                    <Route path='/wayki' strict component={Wayki}/>
-                                    <Route path='/aurelia' strict component={Aurelia}/>
-                                    <Route path='/SFI' strict component={SFI}/>
-                                    <Route path='/new-pay' strict component={NewPay}/>
-                                    <Route path='/Inex' strict component={Inex}/>
+                                    <Route exact path='/influence-chain' strict component={InfluenceChain}/>
+                                    <Route exact path='/inc-pay' strict component={IncPay}/>
+                                    <Route exact path='/design-inc' strict component={DesignInc}/>
+                                    <Route exact path='/dlab' strict component={Dlab}/>
+                                    <Route exact path='/celebrity' strict component={Celebrity}/>
+                                    <Route exact path='/teamlab' strict component={TeamLab}/>
+                                    <Route exact path='/coffee-bag' strict component={CoffeeBag}/>
+                                    <Route exact path='/cutter' strict component={Cutter}/>
+                                    <Route exact path='/arulai' strict component={Arulai}/>
+                                    <Route exact path='/turnip' strict component={Turnip}/>
+                                    <Route exact path='/room' strict component={Room}/>
+                                    <Route exact path='/DNA' strict component={DNA}/>
+                                    <Route exact path='/stec' strict component={Stec}/>
+                                    <Route exact path='/spot' strict component={Spot}/>
+                                    <Route exact path='/zan' strict component={Zan}/>
+                                    <Route exact path='/water' strict component={Water}/>
+                                    <Route exact path='/poster' strict component={Poster}/>
+                                    <Route exact path='/gelaisi' strict component={Gelaisi}/>
+                                    <Route exact path='/photo' strict component={Photo}/>
+                                    <Route exact path='/GBIB' strict component={GBIB}/>
+                                    <Route exact path='/ACP' strict component={ACP}/>
+                                    <Route exact path='/wayki' strict component={Wayki}/>
+                                    <Route exact path='/aurelia' strict component={Aurelia}/>
+                                    <Route exact path='/SFI' strict component={SFI}/>
+                                    <Route exact path='/new-pay' strict component={NewPay}/>
+                                    <Route exact path='/Inex' strict component={Inex}/>
                                 </Switch>
                             </main>
 

@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import {Link} from 'react-router-dom'
 import {WOW} from 'wowjs'
 import './index.scss'
 
@@ -163,6 +164,10 @@ class Projects extends Component {
                 scrollBarBgColor: barTop >= 100 ? 'rgba(0,0,0,0.2)' : 'rgba(255, 255, 255, 0.1)'
             })
         }
+    }
+
+    componentWillUnmount() {
+        window.onscroll = null
     }
 
     initAnimate = () => {
@@ -337,16 +342,14 @@ class Projects extends Component {
                                     </div>
                                 ))}
                                 {works && works.group.length === 2 && works && works.group.map(item => (
-                                    <div key={item.img}
-                                         className='column col-lg-6  col-md-6 col-sm-6 col-xs-12 wow fadeInUp img-box'
-                                         onClick={() => {
-                                             history.push(item.link)
-                                         }}>
-                                        <img src={item.img} alt=''/>
-                                        <div className='img-shadow'>
-                                            {item.name}
+                                    <Link to={item.link} key={item.img}>
+                                        <div className='column col-lg-6  col-md-6 col-sm-6 col-xs-12 wow fadeInUp img-box' >
+                                            <img src={item.img} alt=''/>
+                                            <div className='img-shadow'>
+                                                {item.name}
+                                            </div>
                                         </div>
-                                    </div>
+                                    </Link>
                                 ))
                                 }
                             </div>

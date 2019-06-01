@@ -59,7 +59,7 @@ class Video extends Component {
                     <div className='box'>
                         <video
                             id='video1'
-                            type="video/mp4"
+                            type='video/mp4'
                             width='100%'
                             src='/video/teamlab.mp4'
                             poster='/images/team-lab.png'
@@ -69,7 +69,7 @@ class Video extends Component {
                             webkit-playsinline="true"  // ios系统下小屏播放
                             x5-video-player-type="h5"
                         />
-                        <img src='/images/video-play.svg' alt='' id="videoPalse1" className='video-play'
+                        <img src='./images/video-play.svg' alt='' id="videoPalse1" className='video-play'
                              onClick={() => this.toPlay(1, 'teamlab')}/>
                     </div>
 
@@ -93,7 +93,7 @@ class Video extends Component {
                             webkit-playsinline="true"  // ios系统下小屏播放
                             x5-video-player-type="h5"
                         />
-                        <img alt='' src='/images/video-play.svg' id="videoPalse2" className='video-play'
+                        <img alt='' src='./images/video-play.svg' id="videoPalse2" className='video-play'
                              onClick={() => this.toPlay(2, 'room')}/>
                     </div>
 
