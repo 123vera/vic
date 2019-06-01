@@ -208,8 +208,9 @@ class App extends Component {
 
     render() {
         const {currentLanguage = 'US', language = DEFAULT_LANGUAGE} = this.state
-        const darkList = ['/projects', '/video', '/diary','/diary/', '/video/']
-        const isDarkBg = !darkList.includes(window.location.pathname)
+        const darkList = ['#/', '#/projects/', '#/projects', '#/video', '#/diary', '#/diary/', '#/video/']
+        const isDarkBg = !darkList.includes(window.location.hash)
+
         return (
             <ErrorBoundary>
                 <LocaleProvider>
@@ -222,13 +223,13 @@ class App extends Component {
                                 setLang={this.setLang}/>
                             <main id='main'>
                                 <Switch>
-                                    <Route path='/' component={Projects} exact/>
-                                    <Route path='/projects' component={Projects}/>
-                                    <Route path='/lab' component={LabContainer}/>
-                                    <Route path='/diary' strict component={Images}/>
-                                    <Route path='/video' component={Video}/>
-                                    <Route path='/about' strict component={About}/>
-                                    <Route path='/contact' component={Contact}/>
+                                    <Route exact path='/' component={Projects}/>
+                                    <Route exact path='/projects' component={Projects}/>
+                                    <Route exact path='/lab' component={LabContainer}/>
+                                    <Route exact path='/diary' component={Images}/>
+                                    <Route exact path='/video' component={Video}/>
+                                    <Route exact path='/about' component={About}/>
+                                    <Route exact path='/contact' component={Contact}/>
                                     <Route path='/influence-chain' strict component={InfluenceChain}/>
                                     <Route path='/inc-pay' strict component={IncPay}/>
                                     <Route path='/design-inc' strict component={DesignInc}/>

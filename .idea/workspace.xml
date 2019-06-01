@@ -2,16 +2,256 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccee08b9-d1ef-406e-980b-7a879a7a8f86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/font/Cwtexming.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/IconFont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/Sabon.woff" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/acp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/arrow-hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/arulai-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/arulai-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/arulai-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/aurelia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/celebrity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/close-swiper.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/coffee-bag.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/contact-me.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/cutter.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/design-inc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/dlab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/dna.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/footer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/gbib.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/gelaisi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/header-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-10.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-12.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-15.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-16.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-17.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-18.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-20.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-23.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-24.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-26.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-27.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-28.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-30.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-31.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-32.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-33.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-34.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-35.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-36.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-37.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-38.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-39.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-40.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-41.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-43.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-47.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/images-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/inc-pay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/influence-chain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/logo V.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/new-pay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/photo-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/photo-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/photo-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/photo-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/poster.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/room.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/sfi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/spot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/stec.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/team-lab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/turnip-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/turnip-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/water.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/wayki.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/works-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/works-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/works-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/works-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/works-13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/works-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/works-15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/works-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/works-17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/works-18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/works-19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/works-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/works-20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/works-21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/works-22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/works-23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/works-24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/works-25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/works-26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/works-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/works-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/works-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/works-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/works-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/works-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/works-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/zan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/precache-manifest.d328d6571d265acff50e4c28a7716be1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/10.f2fbbc54.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/10.f2fbbc54.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/11.9e6d7ec0.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/11.9e6d7ec0.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/12.8abeebcd.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/12.8abeebcd.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/13.5c05b41d.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/13.5c05b41d.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/14.104b8003.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/14.104b8003.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/15.4516148e.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/15.4516148e.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/16.bd79f7a2.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/16.bd79f7a2.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/17.bba78668.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/17.bba78668.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/18.ec05e960.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/18.ec05e960.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/19.66fdec4f.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/19.66fdec4f.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/20.d98784fd.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/20.d98784fd.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/21.ccaf3615.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/21.ccaf3615.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/22.fa04925a.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/22.fa04925a.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/23.d1d40677.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/23.d1d40677.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/24.8712e4f3.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/24.8712e4f3.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/25.58203a2e.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/25.58203a2e.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/26.e785735c.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/26.e785735c.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/27.3959fbbb.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/27.3959fbbb.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/29.48b3e7c6.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/29.48b3e7c6.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/3.570d1f5e.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/3.570d1f5e.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/30.044ce966.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/30.044ce966.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/31.47ae0886.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/31.47ae0886.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/32.d7e05e02.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/32.d7e05e02.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/4.cf6e46fb.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/4.cf6e46fb.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/5.df1f106e.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/5.df1f106e.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/6.8f9cafe6.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/6.8f9cafe6.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/7.d990990e.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/7.d990990e.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/8.4151aad8.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/8.4151aad8.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/9.391bce03.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/9.391bce03.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.420cc421.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.420cc421.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/10.8d272ef4.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/10.8d272ef4.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/11.47347148.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/11.47347148.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/12.8a6ae111.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/12.8a6ae111.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/13.5ac7d131.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/13.5ac7d131.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/14.7f0ae17d.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/14.7f0ae17d.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/15.d13cd278.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/15.d13cd278.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/16.8d8c8822.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/16.8d8c8822.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/17.59c864d1.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/17.59c864d1.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/18.2f032c25.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/18.2f032c25.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/19.a379d0b2.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/19.a379d0b2.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.edfe9ca8.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.edfe9ca8.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/20.80e77cc9.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/20.80e77cc9.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/21.74f0e8a5.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/21.74f0e8a5.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/22.a676d00b.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/22.a676d00b.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/23.c2e4b077.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/23.c2e4b077.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/24.5b24d6ce.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/24.5b24d6ce.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/25.007eae0f.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/25.007eae0f.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/26.5c5bf71a.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/26.5c5bf71a.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/27.72cc7d41.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/27.72cc7d41.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/28.50cda4bf.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/28.50cda4bf.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/29.79eb5c81.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/29.79eb5c81.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/3.ecc3f49e.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/3.ecc3f49e.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/30.77f77ac1.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/30.77f77ac1.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/31.854eb3ab.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/31.854eb3ab.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/32.a2efaa00.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/32.a2efaa00.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/33.fc34dda8.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/33.fc34dda8.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/4.371e0fdd.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/4.371e0fdd.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/5.7634a3bd.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/5.7634a3bd.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/6.95a27104.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/6.95a27104.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/7.dddca8f9.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/7.dddca8f9.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/8.988ccbef.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/8.988ccbef.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/9.60c240c7.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/9.60c240c7.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.bf0ff9e6.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.bf0ff9e6.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime~main.98626a27.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime~main.98626a27.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/cwTeXQMing-Medium.1479bb68.ttf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/CommonFooter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/CommonFooter/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/CommonHeader/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/CommonHeader/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/CommonHeader/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/CommonHeader/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/i18n/lang/en-US.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n/lang/en-US.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,47 +263,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/Projects/index.js">
+        <entry file="file://$PROJECT_DIR$/src/components/common/CommonHeader/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2412">
-              <caret line="285" column="56" selection-start-line="285" selection-start-column="56" selection-end-line="285" selection-end-column="56" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-                <element signature="e#106#3148#0" />
-                <element signature="n#!!block;n#componentDidMount#0;n#Projects#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/common/CommonFooter/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
-              <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/i18n/lang/en-US.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/i18n/lang/zh-CN.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="1224">
+              <caret line="68" column="7" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -71,8 +276,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/common/CommonHeader/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1278">
-              <caret line="71" column="30" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
+            <state relative-caret-position="179">
+              <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -80,11 +285,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2916">
-              <caret line="162" column="26" selection-start-line="162" selection-start-column="26" selection-end-line="162" selection-end-column="26" />
+            <state relative-caret-position="172">
+              <caret line="213" selection-start-line="213" selection-end-line="213" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -93,40 +298,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+            <state relative-caret-position="400">
+              <caret line="130" column="56" selection-start-line="130" selection-start-column="56" selection-end-line="130" selection-end-column="56" />
               <folding>
-                <element signature="n#!!block;n#browserslist#0;n#!!top" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/manifest.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/common/CommonHeader/index.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/index.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -135,8 +313,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.swiper-container</find>
-      <find>.swiper-box</find>
       <find>img-box</find>
       <find>video</find>
       <find>toPlay</find>
@@ -165,6 +341,8 @@
       <find>assets/font/</find>
       <find>images</find>
       <find>imp</find>
+      <find>browser</find>
+      <find>isDarkBg</find>
     </findStrings>
     <replaceStrings>
       <replace>/images/images</replace>
@@ -183,7 +361,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pages/About/index.scss" />
         <option value="$PROJECT_DIR$/src/components/partials/Recommend/index.scss" />
         <option value="$PROJECT_DIR$/src/styles/_common.scss" />
         <option value="$PROJECT_DIR$/src/components/partials/Recommend/index.js" />
@@ -227,19 +404,20 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/pages/Projects/index.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/components/common/CommonHeader/index.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/common/CommonFooter/index.js" />
         <option value="$PROJECT_DIR$/src/i18n/lang/en-US.js" />
         <option value="$PROJECT_DIR$/public/manifest.json" />
         <option value="$PROJECT_DIR$/src/components/common/CommonHeader/index.scss" />
         <option value="$PROJECT_DIR$/src/index.scss" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/components/common/CommonHeader/index.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="596" />
-    <option name="y" value="306" />
+    <option name="x" value="372" />
+    <option name="y" value="64" />
     <option name="width" value="1239" />
     <option name="height" value="986" />
   </component>
@@ -398,7 +576,8 @@
       <workItem from="1559189664604" duration="6742000" />
       <workItem from="1559268155541" duration="720000" />
       <workItem from="1559270123102" duration="3385000" />
-      <workItem from="1559283900481" duration="2254000" />
+      <workItem from="1559283900481" duration="2756000" />
+      <workItem from="1559293945027" duration="3220000" />
     </task>
     <task id="LOCAL-00001" summary="改问题">
       <created>1558887761938</created>
@@ -411,10 +590,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193381000" />
+    <option name="totallyTimeSpent" value="197103000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="596" y="306" width="1239" height="986" extended-state="0" />
+    <frame x="372" y="64" width="1239" height="986" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23316912" />
@@ -432,7 +611,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Messages" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.24944071" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2785235" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -469,16 +648,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="改问题" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pages/DNA/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Gbib/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -632,13 +801,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/8eee10abd769bb1fb8a18a6f0eb5e836/Message/MessageTemp/07d8fa9f484d6f8be2be1e1461611567/File/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/partials/Recommend/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -819,28 +981,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Projects/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2412">
-          <caret line="285" column="56" selection-start-line="285" selection-start-column="56" selection-end-line="285" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-            <element signature="e#106#3148#0" />
-            <element signature="n#!!block;n#componentDidMount#0;n#Projects#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/common/CommonFooter/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/i18n/lang/en-US.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -855,10 +995,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Projects/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2412">
+          <caret line="285" column="56" selection-start-line="285" selection-start-column="56" selection-end-line="285" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#106#3148#0" />
+            <element signature="n#!!block;n#componentDidMount#0;n#Projects#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/CommonFooter/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/CommonHeader/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="68" column="7" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="130" column="56" selection-start-line="130" selection-start-column="56" selection-end-line="130" selection-end-column="56" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!block;n#browserslist#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/common/CommonHeader/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1278">
-          <caret line="71" column="30" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
+        <state relative-caret-position="179">
+          <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
@@ -867,42 +1080,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2916">
-          <caret line="162" column="26" selection-start-line="162" selection-start-column="26" selection-end-line="162" selection-end-column="26" />
+        <state relative-caret-position="172">
+          <caret line="213" selection-start-line="213" selection-end-line="213" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!block;n#browserslist#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/common/CommonHeader/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
