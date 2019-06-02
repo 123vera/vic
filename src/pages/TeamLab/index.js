@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import Recommend from '../../components/partials/Recommend'
 import Introduce from '../../components/partials/Introduce'
+import ReactSVG from 'react-svg'
 import {ensureLanguage} from "../../utils/utils";
 import {DICT} from "../../i18n";
 import './index.scss'
@@ -74,7 +75,8 @@ class TeamLab extends Component {
                         webkit-playsinline='true'  // ios系统下小屏播放
                         x5-video-player-type="h5"
                     />
-                    <img src='/images/video-play.svg' alt='' id="videoPalse" className='video-play' onClick={this.toPlay}/>
+                    <ReactSVG src='/images/video-play.svg' id="videoPalse" className='video-play' onClick={this.toPlay}/>
+                    {/*<img src='/images/video-play.svg' alt='' id="videoPalse" className='video-play' onClick={this.toPlay}/>*/}
                 </div>
                 <Recommend/>
             </div>

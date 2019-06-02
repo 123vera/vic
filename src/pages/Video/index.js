@@ -1,13 +1,11 @@
 import React, {Component} from 'react'
 import {WOW} from "wowjs";
+import ReactSVG from 'react-svg'
 import './index.scss'
 
 class Video extends Component {
     componentDidMount() {
-        let wow = new WOW({
-            live: false
-        })
-        wow.init()
+        new WOW({live: false}).init()
     }
 
     toPlay = (num, name) => {
@@ -61,16 +59,21 @@ class Video extends Component {
                             id='video1'
                             type='video/mp4'
                             width='100%'
-                            src='/video/teamlab.mp4'
-                            poster='/images/team-lab.png'
+                            src='./video/teamlab.mp4'
+                            poster='./images/team-lab.png'
                             preload="none"
                             controlsList="nodownload"
                             playsInline={true}   // 小屏播放
                             webkit-playsinline="true"  // ios系统下小屏播放
                             x5-video-player-type="h5"
                         />
-                        <img src='./images/video-play.svg' alt='' id="videoPalse1" className='video-play'
-                             onClick={() => this.toPlay(1, 'teamlab')}/>
+                        <ReactSVG
+                            src='./images/video-play.svg'
+                            id="videoPalse1"
+                            className='video-play'
+                            onClick={() => this.toPlay(1, 'teamlab')}/>
+                        {/*<img src='./images/video-play.svg' alt='' id="videoPalse1" className='video-play'
+                             onClick={() => this.toPlay(1, 'teamlab')}/>*/}
                     </div>
 
                     <div className='desc-p'>
@@ -85,16 +88,21 @@ class Video extends Component {
                             id='video2'
                             type="video/mp4"
                             width='100%'
-                            src='/video/room.mp4'
-                            poster='/images/room.png'
+                            src='./video/room.mp4'
+                            poster='./images/room.png'
                             preload="none"
                             controlsList="nodownload"
                             playsInline={true}   // 小屏播放
                             webkit-playsinline="true"  // ios系统下小屏播放
                             x5-video-player-type="h5"
                         />
-                        <img alt='' src='./images/video-play.svg' id="videoPalse2" className='video-play'
-                             onClick={() => this.toPlay(2, 'room')}/>
+                        <ReactSVG
+                            src='./images/video-play.svg'
+                            id="videoPalse2"
+                            className='video-play'
+                            onClick={() => this.toPlay(2, 'room')}/>
+                        {/* <img alt='' src='./images/video-play.svg' id="videoPalse2" className='video-play'
+                             onClick={() => this.toPlay(2, 'room')}/>*/}
                     </div>
 
                     <div className='desc-p'>

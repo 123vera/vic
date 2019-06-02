@@ -1,5 +1,6 @@
 import React, {Component, useState} from 'react'
 import {WOW} from "wowjs";
+import ReactSVG from 'react-svg'
 import Swiper from 'react-id-swiper/lib/ReactIdSwiper.full';
 import {Navigation} from 'swiper/dist/js/swiper.esm'
 import './index.scss'
@@ -33,7 +34,7 @@ const SimpleSwiper = (props) => {
     const [swiper, updateSwiper] = useState(null);
 
     const goNext = e => {
-         e.stopPropagation()
+        e.stopPropagation()
         if (swiper !== null) {
             swiper.slideNext();
         }
@@ -46,6 +47,7 @@ const SimpleSwiper = (props) => {
             swiper.slidePrev();
         }
     }
+
     return (
         <div className='row swiper-box'>
             <button className='pre' onClick={goPrev}> &gt; </button>
@@ -104,7 +106,10 @@ class Images extends Component {
                 }}>
                     <span className='close-swiper' onClick={() => {
                         this.setState({isShowModel: false})
-                    }}><img src='/images/close-swiper.svg' alt=''/></span>
+                    }}>
+                        <ReactSVG src='/images/close-swiper.svg' />
+                        {/*<img src='/images/close-swiper.svg' alt=''/>*/}
+                        </span>
                     <SimpleSwiper currSlide={currSlide}/>
                 </div>
             </div>
