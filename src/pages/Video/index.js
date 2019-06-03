@@ -59,7 +59,7 @@ class Video extends Component {
                             id='video1'
                             type='video/mp4'
                             width='100%'
-                            src='./video/teamlab.mp4'
+                            src='https://www.xiehui.design/teamlab.mp4'
                             poster='./images/team-lab.png'
                             preload="none"
                             controlsList="nodownload"
@@ -88,7 +88,7 @@ class Video extends Component {
                             id='video2'
                             type="video/mp4"
                             width='100%'
-                            src='./video/room.mp4'
+                            src='https://www.xiehui.design/room.mp4'
                             poster='./images/room.png'
                             preload="none"
                             controlsList="nodownload"

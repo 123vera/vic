@@ -67,7 +67,7 @@ class TeamLab extends Component {
                         id='video'
                         type='video/mp4'
                         width='100%'
-                        src='/video/teamlab.mp4'
+                        src='https://www.xiehui.design/teamlab.mp4'
                         poster='/images/team-lab.png'
                         preload="none"
                         controlsList="nodownload"
