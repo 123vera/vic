@@ -223,7 +223,7 @@ class App extends Component {
                                 setLang={this.setLang}/>
                             <main id='main'>
                                 <Switch>
-                                    <Route exact path='/' component={Loading}/>
+                                    <Route exact path='/' component={Projects}/>
                                     <Route exact path='/projects' component={Projects}/>
                                     <Route exact path='/lab' component={LabContainer}/>
                                     <Route exact path='/diary' component={Images}/>
