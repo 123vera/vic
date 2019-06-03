@@ -76,7 +76,7 @@ class TeamLab extends Component {
                         x5-video-player-type="h5"
                     />
                     {/* <ReactSVG src='/images/video-play.svg' id="videoPalse" className='video-play' onClick={this.toPlay}/> */}
-                    <img src='/images/video-play.png' alt='' id="videoPalse" className='video-play' onClick={this.toPlay}/>
+                    <img src='/images/video-play.jpg' alt='' id="videoPalse" className='video-play' onClick={this.toPlay}/>
                 </div>
                 <Recommend/>
             </div>

@@ -74,7 +74,7 @@ class Room extends Component {
                         x5-video-player-type="h5"
                     />
                     {/* <ReactSVG src='/images/video-play.svg' id="videoPalse" className='video-play' onClick={this.toPlay} /> */}
-                    <img alt='' src='/images/video-play.png' id="videoPalse" className='video-play' onClick={this.toPlay}/>
+                    <img alt='' src='/images/video-play.jpg' id="videoPalse" className='video-play' onClick={this.toPlay}/>
                 </div>
 
                 <Recommend/>

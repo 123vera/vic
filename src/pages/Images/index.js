@@ -1,6 +1,5 @@
 import React, { Component, useState } from 'react'
 import { WOW } from 'wowjs'
-import ReactSVG from 'react-svg'
 import Swiper from 'react-id-swiper/lib/ReactIdSwiper.full'
 import { Navigation } from 'swiper/dist/js/swiper.esm'
 import './index.scss'

@@ -72,7 +72,7 @@ class Video extends Component {
                             id="videoPalse1"
                             className='video-play'
                             onClick={() => this.toPlay(1, 'teamlab')}/> */}
-                        <img src='./images/video-play.png' alt='' id="videoPalse1" className='video-play'
+                        <img src='./images/video-play.jpg' alt='' id="videoPalse1" className='video-play'
                              onClick={() => this.toPlay(1, 'teamlab')}/>
                     </div>
 
@@ -101,7 +101,7 @@ class Video extends Component {
                             id="videoPalse2"
                             className='video-play'
                             onClick={() => this.toPlay(2, 'room')}/> */}
-                        <img alt='' src='./images/video-play.png' id="videoPalse2" className='video-play'
+                        <img alt='' src='./images/video-play.jpg' id="videoPalse2" className='video-play'
                              onClick={() => this.toPlay(2, 'room')}/>
                     </div>
 

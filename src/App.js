@@ -210,7 +210,7 @@ class App extends Component {
         const {currentLanguage = 'US', language = DEFAULT_LANGUAGE} = this.state
         const darkList = ['#/', '#/projects/', '#/projects', '#/video', '#/diary', '#/diary/', '#/video/']
         const isDarkBg = !darkList.includes(window.location.hash)
-console.log(this.props)
+
         return (
             <ErrorBoundary>
                 <LocaleProvider>
