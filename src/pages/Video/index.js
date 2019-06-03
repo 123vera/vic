@@ -67,13 +67,13 @@ class Video extends Component {
                             webkit-playsinline="true"  // ios系统下小屏播放
                             x5-video-player-type="h5"
                         />
-                        <ReactSVG
-                            src='./images/video-play.svg'
+                        {/* <ReactSVG
+                            src='/images/video-play.svg'
                             id="videoPalse1"
                             className='video-play'
-                            onClick={() => this.toPlay(1, 'teamlab')}/>
-                        {/*<img src='./images/video-play.svg' alt='' id="videoPalse1" className='video-play'
-                             onClick={() => this.toPlay(1, 'teamlab')}/>*/}
+                            onClick={() => this.toPlay(1, 'teamlab')}/> */}
+                        <img src='./images/video-play.png' alt='' id="videoPalse1" className='video-play'
+                             onClick={() => this.toPlay(1, 'teamlab')}/>
                     </div>
 
                     <div className='desc-p'>
@@ -96,13 +96,13 @@ class Video extends Component {
                             webkit-playsinline="true"  // ios系统下小屏播放
                             x5-video-player-type="h5"
                         />
-                        <ReactSVG
+                        {/* <ReactSVG
                             src='./images/video-play.svg'
                             id="videoPalse2"
                             className='video-play'
-                            onClick={() => this.toPlay(2, 'room')}/>
-                        {/* <img alt='' src='./images/video-play.svg' id="videoPalse2" className='video-play'
-                             onClick={() => this.toPlay(2, 'room')}/>*/}
+                            onClick={() => this.toPlay(2, 'room')}/> */}
+                        <img alt='' src='./images/video-play.png' id="videoPalse2" className='video-play'
+                             onClick={() => this.toPlay(2, 'room')}/>
                     </div>
 
                     <div className='desc-p'>

@@ -8,9 +8,34 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 40px;
+  font-size: 20px;
   color: #fff;
   background-color: #000;
   width: 100vw;
   height: 100vh;
+
+  span {
+    display: inline-block;
+    height: 1em;
+    line-height: 1;
+    text-align: left;
+    vertical-align: -0.25em;
+    overflow: hidden;
+
+    &::before {
+      display: block;
+      content: '...\A..\A.';
+      white-space: pre-wrap; /* 也可以是white-space: pre */
+      animation: dot 1.5s infinite step-start both;
+    }
+  }
+
+  @keyframes dot {
+    33% {
+      transform: translateY(-2em);
+    }
+    66% {
+      transform: translateY(-1em);
+    }
+  }
 }

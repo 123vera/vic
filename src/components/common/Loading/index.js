@@ -4,7 +4,7 @@ import './index.scss'
 class Loading extends Component {
     render() {
         return (
-            <div className='loading'>Loading...</div>
+            <div className='loading'>Loading <span>...</span></div>
         )
     }
 }
