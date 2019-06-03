@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import ReactSVG from 'react-svg'
+// import ReactSVG from 'react-svg'
 import Recommend from '../../components/partials/Recommend'
 import Introduce from '../../components/partials/Introduce'
 import {ensureLanguage} from "../../utils/utils";

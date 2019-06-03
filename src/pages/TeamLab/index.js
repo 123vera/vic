@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import Recommend from '../../components/partials/Recommend'
 import Introduce from '../../components/partials/Introduce'
-import ReactSVG from 'react-svg'
+// import ReactSVG from 'react-svg'
 import {ensureLanguage} from "../../utils/utils";
 import {DICT} from "../../i18n";
 import './index.scss'

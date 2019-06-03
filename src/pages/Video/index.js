@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {WOW} from "wowjs";
-import ReactSVG from 'react-svg'
+// import ReactSVG from 'react-svg'
 import './index.scss'
 
 class Video extends Component {
