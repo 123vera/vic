@@ -60,7 +60,7 @@ class CommonHeader extends Component {
       >
         <div className="header-box">
           <div className="header-visible">
-            <Link to="/projects">XIEHUI.DESIGN</Link>
+            <Link to="/projects">JIANGYU.DESIGN</Link>
           </div>
 
           <div className="hidden-xs header-wrapper">
@@ -73,8 +73,8 @@ class CommonHeader extends Component {
                     className={nav.label === currentNav ? 'active' : ''}
                   >
                     <Link to={`/${nav.label}`}>
-                    {nav.value &&
-                      nav.value.charAt(0).toUpperCase() + nav.value.slice(1)}
+                      {nav.value &&
+                        nav.value.charAt(0).toUpperCase() + nav.value.slice(1)}
                     </Link>
                   </li>
                 ))}

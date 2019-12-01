@@ -19,7 +19,7 @@ class Video extends Component {
       //点击图片的时候暂停，并且使图片隐藏，再次点击视频或者图片的时候播放
       videoplay.onclick = () => {
         this.onVideoPalse(num)
-      };
+      }
       //对于ios系统播放完毕之后变黑的情况,在播放结束的时候所以要重新刷新一下src
       if (isiOS) {
         //isiOS是我设置的变量判断ios系统的常量，如果需要判断条件可以评论或者私信我
@@ -34,7 +34,7 @@ class Video extends Component {
     this.onVideoPalse(num)
   }
 
-  onVideoPalse = (num) => {
+  onVideoPalse = num => {
     let videoplay = document.getElementById(`video${num}`)
     let videoPalse = document.getElementById(`videoPalse${num}`) //video标签
     if (videoPalse) {
@@ -47,7 +47,6 @@ class Video extends Component {
         videoPalse.style.display = 'block'
       }
     }
-  
   }
   render() {
     return (
@@ -58,7 +57,7 @@ class Video extends Component {
               id="video1"
               type="video/mp4"
               width="100%"
-              src="https://www.xiehui.design/teamlab.mp4"
+              src="http://vicjiangyu.com//teamlab.mp4"
               poster="./images/team-lab.png"
               preload="none"
               controlsList="nodownload"
@@ -88,7 +87,7 @@ class Video extends Component {
               id="video2"
               type="video/mp4"
               width="100%"
-              src="https://www.xiehui.design/room.mp4"
+              src="http://vicjiangyu.com//room.mp4"
               poster="./images/room.png"
               preload="none"
               controlsList="nodownload"
