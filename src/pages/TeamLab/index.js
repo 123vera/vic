@@ -67,7 +67,7 @@ class TeamLab extends Component {
             id="video"
             type="video/mp4"
             width="100%"
-            src="http://vicjiangyu.com//teamlab.mp4"
+            src="http://vicjiangyu.com/teamlab.mp4"
             poster="/images/team-lab.png"
             preload="none"
             controlsList="nodownload"

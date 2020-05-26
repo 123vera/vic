@@ -322,7 +322,7 @@ class Projects extends Component {
                 className="split-part"
                 style={{ transitionDelay: '2310ms' }}
               >
-                Jiang Yu,{' '}
+                Xie Hui，{' '}
               </span>
               <span
                 className="split-part"
@@ -369,7 +369,7 @@ class Projects extends Component {
                 className="split-part"
                 style={{ transitionDelay: '8910ms' }}
               >
-                江予，
+                谢辉，
               </span>
               <span
                 className="split-part"

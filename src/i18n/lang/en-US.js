@@ -5,7 +5,8 @@ module.exports = {
   NAV_TITLE_04: `About`,
   NAV_TITLE_05: `Contact`,
 
-  WORKER_NAME: `JiangYu`,
+  // WORKER_NAME: `JiangYu`,
+  WORKER_NAME: `XieHui`,
   WORKER_DESIGNER: `Designer`,
   WORKER_YEARS: `Years`,
   WORKER_CATEGORY: `Category`,
@@ -13,7 +14,7 @@ module.exports = {
   CONTACT_ADDRESS: `7th Floor, No. 27, Zhongshan East Road, Huangpu District, Shanghai`,
 
   ABOUT_ME_TITLE: `ABOUT ME`,
-  ABOUT_ME_DESC_01: `I am Jiang Yu, a UI designer currently living in Shanghai. I’m also a photographer. I enjoy recording subtleties of life and emotions with images.`,
+  ABOUT_ME_DESC_01: `I am Xie Hui, a UI designer currently living in Shanghai. I’m also a photographer. I enjoy recording subtleties of life and emotions with images.`,
   ABOUT_ME_DESC_02: `Someone has described art design as follows, " cut to the essence, but do not strip off its rhyme, keep it clean and pure, but don't deprive it of vitality.”The world is full of beautiful things that we should touch with our hearts. Art is the process of re-examining and re-expressing what we see and what we think, which has become an indispensable part of my life.`,
   ABOUT_ME_DESC_03: `I regard Art Design as not only the presentation of visual effects, but also the goal of better serving users should be taken into consideration. Designers should understand principles of design and at the same time mix originality with product orientation, and better understand themselves and their surroundings from different aspects.`,
   ABOUT_ME_DESC_04: `Artistic design is a process of both tempering technical expertise and enriching myself. As a designer, I’m aiming to take good use of updating technology to more precisely meet customers’ needs, as well as express myself.`,

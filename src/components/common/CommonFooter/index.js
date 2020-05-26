@@ -85,7 +85,7 @@ class CommonFooter extends Component {
             </ul>
             <ul className="column col-lg-3 col-md-3 col-sm-3">
               <li>contact</li>
-              <li>vicdesignstyle@gmail.com</li>
+              <li>vicjiangyu@gmail.com</li>
               <li>vanhatch.com</li>
             </ul>
             <ul className="column col-lg-3 col-md-3 col-sm-3">
@@ -109,13 +109,29 @@ class CommonFooter extends Component {
                   Wechat
                 </span>
               </li>
+              <li>
+                <a
+                  href="https://weibo.com/6453224041/profile?rightmod=1&wvr=6&mod=personinfo"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  Weibo
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://space.bilibili.com/319350209"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  bilibili
+                </a>
+              </li>
             </ul>
           </div>
         </section>
         <div className="rights">
-          <span>
-            &#169; 2019 JiangYu.All rights reserved. 沪ICP备19041984号
-          </span>
+          <span>&#169; 2019 XieHui.All rights reserved. 沪ICP备19041984号</span>
           <img src="/images/footer.png" alt="" />
         </div>
 

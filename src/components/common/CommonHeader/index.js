@@ -60,7 +60,7 @@ class CommonHeader extends Component {
       >
         <div className="header-box">
           <div className="header-visible">
-            <Link to="/projects">JIANGYU.DESIGN</Link>
+            <Link to="/projects">XIEHUI.DESIGN</Link>
           </div>
 
           <div className="hidden-xs header-wrapper">

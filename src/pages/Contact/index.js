@@ -53,7 +53,7 @@ class Contact extends Component {
       <div id="contact" className="padding-top wow fadeInRight">
         <div className="contact-wrapper">
           <ul className="msg">
-            <li>vicdesignstyle@gmail.com</li>
+            <li>x2549080@gmail.com</li>
             <li>
               <a
                 href="https://www.instagram.com/j.y.vic/"

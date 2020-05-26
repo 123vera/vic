@@ -57,7 +57,7 @@ class Video extends Component {
               id="video1"
               type="video/mp4"
               width="100%"
-              src="http://vicjiangyu.com//teamlab.mp4"
+              src="http://vicjiangyu.com/teamlab.mp4"
               poster="./images/team-lab.png"
               preload="none"
               controlsList="nodownload"
@@ -81,13 +81,13 @@ class Video extends Component {
             <p>1分11秒</p>
           </div>
         </div>
-        <div className="video-wrapper">
+        {/* <div className="video-wrapper">
           <div className="box">
             <video
               id="video2"
               type="video/mp4"
               width="100%"
-              src="http://vicjiangyu.com//room.mp4"
+              src="http://vicjiangyu.com/room.mp4"
               poster="./images/room.png"
               preload="none"
               controlsList="nodownload"
@@ -109,7 +109,7 @@ class Video extends Component {
             <p>2019年</p>
             <p>1分32秒</p>
           </div>
-        </div>
+        </div> */}
       </div>
     )
   }
