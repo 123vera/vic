@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Sabon';
+  src: url('/font/Sabon.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'cwtexming';
+  src: url('/font/cwtexming.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Icons';
+  src: url('/font/IconFont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Medium';
+  src: url('/font/cwTeXQMing-Medium.ttf') format('truetype');
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Sabon","cwtexming", 'Icons','Medium', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+//code {
+//  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+//  monospace;
+//}
+
+html {
+  font-size: 10px;
+}
+
+@media screen and (max-width: 350px) {
+  html {
+    font-size: 9.1px;
+  }
+}

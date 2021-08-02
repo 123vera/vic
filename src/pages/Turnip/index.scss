@@ -1,0 +1,18 @@
+@import '../../styles/common';
+
+.work-turnip {
+  box-sizing: border-box;
+  padding-left: $page-safe-padding;
+  padding-right: $page-safe-padding;
+
+  .design-pics {
+    box-sizing: border-box;
+    padding: 55px 0;
+    border-top: 1px solid $theme-color-border;
+    border-bottom: 1px solid $theme-color-border;
+
+    .pics {
+      width: 100%;
+    }
+  }
+}

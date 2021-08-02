@@ -1,0 +1,15 @@
+@charset 'utf-8';
+
+@import './_variables';
+@import './_mixins';
+
+.container_60 {
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: #000;
+}
+
+.padding-top {
+  padding-top: 15%;
+  box-sizing: border-box;
+}
