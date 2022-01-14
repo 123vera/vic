@@ -1,9 +1,21 @@
-import React, {Component} from "react";
-import {Link} from 'react-router-dom'
-import {WOW} from "wowjs";
+import React, { Component } from "react";
+import { Link } from 'react-router-dom'
+import { WOW } from "wowjs";
 import './index.scss'
 
 const worksList = [
+    {
+        group: [{
+            img: 'images/works-27.png',
+            link: '/gap'
+        }, {
+            img: 'images/works-28.png',
+            link: '/levis'
+        }, {
+            img: 'images/works-29.png',
+            link: '/wanhao'
+        }]
+    },
     {
         group: [{
             img: 'images/works-1.png',
@@ -133,19 +145,19 @@ class Recommend extends Component {
                 <h2>更多</h2>
                 <div className='row wow slideInRight recommend-wrapper'>
                     <div className='column col-lg-4 col-md-4 col-sm-4 hidden-xs recommend-list-pc'>
-                        {swiperList.map(item => (
-                            <div key={item.img} className='wow fadeInUp recommend-item'>
-                                <Link to={item.link}><img src={item.img} alt=''/></Link>
+                        { swiperList.map(item => (
+                            <div key={ item.img } className='wow fadeInUp recommend-item'>
+                                <Link to={ item.link }><img src={ item.img } alt='' /></Link>
                             </div>
-                        ))}
+                        )) }
                     </div>
 
                     <div className=' column hidden-lg hidden-md hidden-sm col-xs-12 recommend-list-phone'>
-                        {swiperList.map(item => (
-                            <div key={item.img} className='wow fadeInUp recommend-item'>
-                                <Link to={item.link}><img src={item.img} alt=''/></Link>
+                        { swiperList.map(item => (
+                            <div key={ item.img } className='wow fadeInUp recommend-item'>
+                                <Link to={ item.link }><img src={ item.img } alt='' /></Link>
                             </div>
-                        ))}
+                        )) }
                     </div>
                 </div>
             </div>

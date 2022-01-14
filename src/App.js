@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
-import {Route, Switch} from 'react-router-dom'
+import React, { Component } from 'react';
+import { Route, Switch } from 'react-router-dom'
 import Loadable from 'react-loadable'
-import {DEFAULT_LANGUAGE} from './i18n'
-import {Layout, LocaleProvider} from 'antd';
-import {ensureLanguage, setCookie, setLanguage} from "./utils/utils";
+import { DEFAULT_LANGUAGE } from './i18n'
+import { Layout, LocaleProvider } from 'antd';
+import { ensureLanguage, setCookie, setLanguage } from "./utils/utils";
 import CommonHeader from "./components/common/CommonHeader";
 import CommonFooter from "./components/common/CommonFooter";
 import ErrorBoundary from './components/common/ErrorBoundary'
@@ -19,6 +19,20 @@ const LabContainer = Loadable({
 //     loader: () => import('./pages/InitPage'),
 //     loading: Loading
 // })
+
+
+const Gap = Loadable({
+    loader: () => import('./pages/Gap'),
+    loading: Loading
+})
+const Levis = Loadable({
+    loader: () => import('./pages/Levis'),
+    loading: Loading
+})
+const Wanhao = Loadable({
+    loader: () => import('./pages/Wanhao'),
+    loading: Loading
+})
 
 const Projects = Loadable({
     loader: () => import('./pages/Projects'),
@@ -199,7 +213,7 @@ class App extends Component {
     // 设置语言
     setLang = (locale) => {
         setCookie('language', locale.label)
-        this.setState({language: locale.label, currentLanguage: locale.value}, () => {
+        this.setState({ language: locale.label, currentLanguage: locale.value }, () => {
             setLanguage(locale.label)
         })
         return null;
@@ -207,7 +221,7 @@ class App extends Component {
 
 
     render() {
-        const {currentLanguage = 'US', language = DEFAULT_LANGUAGE} = this.state
+        const { currentLanguage = 'US', language = DEFAULT_LANGUAGE } = this.state
         const darkList = ['#/', '#/projects/', '#/projects', '#/video', '#/diary', '#/diary/', '#/video/']
         const isDarkBg = !darkList.includes(window.location.hash)
 
@@ -217,49 +231,52 @@ class App extends Component {
                     <div id='app'>
                         <Layout>
                             <CommonHeader
-                                isDarkBg={isDarkBg}
-                                language={language}
-                                currentLanguage={currentLanguage}
-                                setLang={this.setLang}/>
+                                isDarkBg={ isDarkBg }
+                                language={ language }
+                                currentLanguage={ currentLanguage }
+                                setLang={ this.setLang } />
                             <main id='main'>
                                 <Switch>
-                                    <Route exact path='/' component={Projects}/>
-                                    <Route exact path='/projects' component={Projects}/>
-                                    <Route exact path='/lab' component={LabContainer}/>
-                                    <Route exact path='/diary' component={Images}/>
-                                    <Route exact path='/video' component={Video}/>
-                                    <Route exact path='/about' component={About}/>
-                                    <Route exact path='/contact' component={Contact}/>
-                                    <Route exact path='/influence-chain' strict component={InfluenceChain}/>
-                                    <Route exact path='/inc-pay' strict component={IncPay}/>
-                                    <Route exact path='/design-inc' strict component={DesignInc}/>
-                                    <Route exact path='/dlab' strict component={Dlab}/>
-                                    <Route exact path='/celebrity' strict component={Celebrity}/>
-                                    <Route exact path='/teamlab' strict component={TeamLab}/>
-                                    <Route exact path='/coffee-bag' strict component={CoffeeBag}/>
-                                    <Route exact path='/cutter' strict component={Cutter}/>
-                                    <Route exact path='/arulai' strict component={Arulai}/>
-                                    <Route exact path='/turnip' strict component={Turnip}/>
-                                    <Route exact path='/room' strict component={Room}/>
-                                    <Route exact path='/DNA' strict component={DNA}/>
-                                    <Route exact path='/stec' strict component={Stec}/>
-                                    <Route exact path='/spot' strict component={Spot}/>
-                                    <Route exact path='/zan' strict component={Zan}/>
-                                    <Route exact path='/water' strict component={Water}/>
-                                    <Route exact path='/poster' strict component={Poster}/>
-                                    <Route exact path='/gelaisi' strict component={Gelaisi}/>
-                                    <Route exact path='/photo' strict component={Photo}/>
-                                    <Route exact path='/GBIB' strict component={GBIB}/>
-                                    <Route exact path='/ACP' strict component={ACP}/>
-                                    <Route exact path='/wayki' strict component={Wayki}/>
-                                    <Route exact path='/aurelia' strict component={Aurelia}/>
-                                    <Route exact path='/SFI' strict component={SFI}/>
-                                    <Route exact path='/new-pay' strict component={NewPay}/>
-                                    <Route exact path='/Inex' strict component={Inex}/>
+                                    <Route exact path='/' component={ Projects } />
+                                    <Route exact path='/projects' component={ Projects } />
+                                    <Route exact path='/lab' component={ LabContainer } />
+                                    <Route exact path='/diary' component={ Images } />
+                                    <Route exact path='/video' component={ Video } />
+                                    <Route exact path='/about' component={ About } />
+                                    <Route exact path='/contact' component={ Contact } />
+                                    <Route exact path='/influence-chain' strict component={ InfluenceChain } />
+                                    <Route exact path='/inc-pay' strict component={ IncPay } />
+                                    <Route exact path='/design-inc' strict component={ DesignInc } />
+                                    <Route exact path='/dlab' strict component={ Dlab } />
+                                    <Route exact path='/celebrity' strict component={ Celebrity } />
+                                    <Route exact path='/teamlab' strict component={ TeamLab } />
+                                    <Route exact path='/coffee-bag' strict component={ CoffeeBag } />
+                                    <Route exact path='/cutter' strict component={ Cutter } />
+                                    <Route exact path='/arulai' strict component={ Arulai } />
+                                    <Route exact path='/turnip' strict component={ Turnip } />
+                                    <Route exact path='/room' strict component={ Room } />
+                                    <Route exact path='/DNA' strict component={ DNA } />
+                                    <Route exact path='/stec' strict component={ Stec } />
+                                    <Route exact path='/spot' strict component={ Spot } />
+                                    <Route exact path='/zan' strict component={ Zan } />
+                                    <Route exact path='/water' strict component={ Water } />
+                                    <Route exact path='/poster' strict component={ Poster } />
+                                    <Route exact path='/gelaisi' strict component={ Gelaisi } />
+                                    <Route exact path='/photo' strict component={ Photo } />
+                                    <Route exact path='/GBIB' strict component={ GBIB } />
+                                    <Route exact path='/ACP' strict component={ ACP } />
+                                    <Route exact path='/wayki' strict component={ Wayki } />
+                                    <Route exact path='/aurelia' strict component={ Aurelia } />
+                                    <Route exact path='/SFI' strict component={ SFI } />
+                                    <Route exact path='/new-pay' strict component={ NewPay } />
+                                    <Route exact path='/Inex' strict component={ Inex } />
+                                    <Route exact path='/Gap' strict component={ Gap } />
+                                    <Route exact path='/Levis' strict component={ Levis } />
+                                    <Route exact path='/Wanhao' strict component={ Wanhao } />
                                 </Switch>
                             </main>
 
-                            <CommonFooter language={language} setLang={this.setLang} currentLanguage={currentLanguage}/>
+                            <CommonFooter language={ language } setLang={ this.setLang } currentLanguage={ currentLanguage } />
                         </Layout>
                     </div>
                 </LocaleProvider>

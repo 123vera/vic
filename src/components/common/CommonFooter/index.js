@@ -131,7 +131,8 @@ class CommonFooter extends Component {
           </div>
         </section>
         <div className="rights">
-          <span>&#169; 2019 XieHui.All rights reserved. 沪ICP备19041984号</span>
+          <span>&#169; 2019 Xcontainer
+            .All rights reserved. 沪ICP备19041984号</span>
           <img src="/images/footer.png" alt="" />
         </div>
 

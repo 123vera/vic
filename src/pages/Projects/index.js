@@ -7,6 +7,25 @@ const worksList = [
   {
     group: [
       {
+        img: 'images/works-27.png',
+        link: '/gap',
+        name: 'GAP商城'
+      },
+      {
+        img: 'images/works-28.png',
+        link: '/levis',
+        name: `LEVI'S`
+      },
+      {
+        img: 'images/works-29.png',
+        link: '/wanhao',
+        name: '万豪旅享家'
+      }
+    ]
+  },
+  {
+    group: [
+      {
         img: 'images/works-1.png',
         link: '/influence-chain',
         name: 'Influence chain'
@@ -230,7 +249,7 @@ class Projects extends Component {
     }
 
     class Star {
-      constructor() {
+      constructor () {
         this.reset()
       }
 
@@ -257,7 +276,7 @@ class Projects extends Component {
         if (
           Math.sqrt(
             (this.xPos - HOLE.x) * (this.xPos - HOLE.x) +
-              (this.yPos - HOLE.y) * (this.yPos - HOLE.y)
+            (this.yPos - HOLE.y) * (this.yPos - HOLE.y)
           ) <= HOLE.r ||
           this.z >= Z_RANGE
         )
@@ -320,79 +339,79 @@ class Projects extends Component {
             <p>
               <span
                 className="split-part"
-                style={{ transitionDelay: '2310ms' }}
+                style={ { transitionDelay: '2310ms' } }
               >
-                Xie Hui，{' '}
+                Xie Hui，{ ' ' }
               </span>
               <span
                 className="split-part"
-                style={{ transitionDelay: '10760ms' }}
+                style={ { transitionDelay: '10760ms' } }
               >
-                UI、WEB Designer.{' '}
+                UI、WEB Designer.{ ' ' }
               </span>
               <span
                 className="split-part"
-                style={{ transitionDelay: '8910ms' }}
+                style={ { transitionDelay: '8910ms' } }
               >
-                Provide{' '}
+                Provide{ ' ' }
               </span>
               <span
                 className="split-part"
-                style={{ transitionDelay: '20880ms' }}
+                style={ { transitionDelay: '20880ms' } }
               >
-                website{' '}
+                website{ ' ' }
               </span>
-              <span className="split-part" style={{ transitionDelay: '170ms' }}>
-                visual{' '}
+              <span className="split-part" style={ { transitionDelay: '170ms' } }>
+                visual{ ' ' }
               </span>
-              <span className="split-part" style={{ transitionDelay: '160ms' }}>
-                design,{' '}
+              <span className="split-part" style={ { transitionDelay: '160ms' } }>
+                design,{ ' ' }
               </span>
-              <span className="split-part" style={{ transitionDelay: '80ms' }}>
-                commercial{' '}
+              <span className="split-part" style={ { transitionDelay: '80ms' } }>
+                commercial{ ' ' }
               </span>
-              <span className="split-part" style={{ transitionDelay: '140ms' }}>
-                design,{' '}
+              <span className="split-part" style={ { transitionDelay: '140ms' } }>
+                design,{ ' ' }
               </span>
-              <span className="split-part" style={{ transitionDelay: '30ms' }}>
-                improve{' '}
+              <span className="split-part" style={ { transitionDelay: '30ms' } }>
+                improve{ ' ' }
               </span>
-              <span className="split-part" style={{ transitionDelay: '90ms' }}>
-                company{' '}
+              <span className="split-part" style={ { transitionDelay: '90ms' } }>
+                company{ ' ' }
               </span>
-              <span className="split-part" style={{ transitionDelay: '150ms' }}>
-                image.{' '}
+              <span className="split-part" style={ { transitionDelay: '150ms' } }>
+                image.{ ' ' }
               </span>
             </p>
             <p>
               <span
                 className="split-part"
-                style={{ transitionDelay: '8910ms' }}
+                style={ { transitionDelay: '8910ms' } }
               >
                 谢辉，
               </span>
               <span
                 className="split-part"
-                style={{ transitionDelay: '20880ms' }}
+                style={ { transitionDelay: '20880ms' } }
               >
                 UI、網頁設計師。
               </span>
-              <span className="split-part" style={{ transitionDelay: '160ms' }}>
+              <span className="split-part" style={ { transitionDelay: '160ms' } }>
                 為公司
               </span>
-              <span className="split-part" style={{ transitionDelay: '80ms' }}>
+              <span className="split-part" style={ { transitionDelay: '80ms' } }>
                 提供
               </span>
-              <span className="split-part" style={{ transitionDelay: '140ms' }}>
+              <span className="split-part" style={ { transitionDelay: '140ms' } }>
                 網站、
               </span>
-              <span className="split-part" style={{ transitionDelay: '30ms' }}>
+              <span className="split-part" style={ { transitionDelay: '30ms' } }>
                 App視覺設計、
               </span>
-              <span className="split-part" style={{ transitionDelay: '90ms' }}>
+              <span className="split-part" style={ { transitionDelay: '90ms' } }>
                 商業設計、
               </span>
-              <span className="split-part" style={{ transitionDelay: '150ms' }}>
+              <span className="split-part" style={ { transitionDelay: '150ms' } }>
                 提升公司形象。
               </span>
             </p>
@@ -401,11 +420,11 @@ class Projects extends Component {
             <button className="pre">&gt;</button>
             <div
               className="scroll-main"
-              style={{ background: scrollBarBgColor }}
+              style={ { background: scrollBarBgColor } }
             >
               <div
                 className="scroll-bar"
-                style={{ top: scrollBarTop, background: scrollBarColor }}
+                style={ { top: scrollBarTop, background: scrollBarColor } }
               />
             </div>
             <button className="next">&lt;</button>
@@ -414,35 +433,35 @@ class Projects extends Component {
 
         <section className="wow fadeInRight container main-info">
           <div className="main-info_wrapper">
-            {worksList.map((works, index) => (
-              <div key={index} className="row m-4">
-                {works &&
+            { worksList.map((works, index) => (
+              <div key={ index } className="row m-4">
+                { works &&
                   works.group.length >= 3 &&
                   works.group.map(item => (
                     <div
-                      key={item.img}
+                      key={ item.img }
                       className="column col-lg-4 m-4 col-md-4 col-sm-4 col-xs-12 wow fadeInUp img-box"
-                      onClick={() => {
+                      onClick={ () => {
                         history.push(item.link)
-                      }}
+                      } }
                     >
-                      <img src={item.img} alt="" />
-                      <div className="img-shadow">{item.name}</div>
+                      <img src={ item.img } alt="" />
+                      <div className="img-shadow">{ item.name }</div>
                     </div>
-                  ))}
-                {works &&
+                  )) }
+                { works &&
                   works.group.length === 2 &&
                   works &&
                   works.group.map(item => (
-                    <Link to={item.link} key={item.img}>
+                    <Link to={ item.link } key={ item.img }>
                       <div className="column col-lg-6  col-md-6 col-sm-6 col-xs-12 wow fadeInUp img-box">
-                        <img src={item.img} alt="" />
-                        <div className="img-shadow">{item.name}</div>
+                        <img src={ item.img } alt="" />
+                        <div className="img-shadow">{ item.name }</div>
                       </div>
                     </Link>
-                  ))}
+                  )) }
               </div>
-            ))}
+            )) }
           </div>
         </section>
       </div>
