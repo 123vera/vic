@@ -40,10 +40,10 @@ class CommonHeader extends Component {
         label: 'diary',
         value: dict && dict.NAV_TITLE_02
       },
-      {
-        label: 'video',
-        value: dict && dict.NAV_TITLE_03
-      },
+      // {
+      //   label: 'video',
+      //   value: dict && dict.NAV_TITLE_03
+      // },
       {
         label: 'about',
         value: dict && dict.NAV_TITLE_04
@@ -56,7 +56,7 @@ class CommonHeader extends Component {
     return (
       <div
         id="common-header"
-        className={`${isDarkBg ? 'color-black' : 'color-white'}`}
+        className={ `${isDarkBg ? 'color-black' : 'color-white'}` }
       >
         <div className="header-box">
           <div className="header-visible">
@@ -66,33 +66,32 @@ class CommonHeader extends Component {
           <div className="hidden-xs header-wrapper">
             <div>
               <ul className="nav-ul ">
-                {navList.map(nav => (
+                { navList.map(nav => (
                   <li
-                    key={nav.value}
-                    onClick={() => this.switchRoute(nav.label)}
-                    className={nav.label === currentNav ? 'active' : ''}
+                    key={ nav.value }
+                    onClick={ () => this.switchRoute(nav.label) }
+                    className={ nav.label === currentNav ? 'active' : '' }
                   >
-                    <Link to={`/${nav.label}`}>
-                      {nav.value &&
-                        nav.value.charAt(0).toUpperCase() + nav.value.slice(1)}
+                    <Link to={ `/${nav.label}` }>
+                      { nav.value &&
+                        nav.value.charAt(0).toUpperCase() + nav.value.slice(1) }
                     </Link>
                   </li>
-                ))}
+                )) }
               </ul>
             </div>
 
             <ul className="lang-ul">
-              {antdLocales.map(locale => (
+              { antdLocales.map(locale => (
                 <li
-                  key={locale.value}
-                  className={`lang-li ${
-                    locale.value === currentLanguage ? 'active' : ''
-                  }`}
-                  onClick={() => setLang(locale)}
+                  key={ locale.value }
+                  className={ `lang-li ${locale.value === currentLanguage ? 'active' : ''
+                    }` }
+                  onClick={ () => setLang(locale) }
                 >
-                  {locale.value}
+                  { locale.value }
                 </li>
-              ))}
+              )) }
             </ul>
           </div>
         </div>

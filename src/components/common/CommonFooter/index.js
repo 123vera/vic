@@ -69,9 +69,8 @@ class CommonFooter extends Component {
     return (
       <div id="common-footer">
         <section
-          className={`row  hidden-xs main ${
-            grayList.find(i => window.location.pathname === i) ? 'bg-gray' : ''
-          }`}
+          className={ `row  hidden-xs main ${grayList.find(i => window.location.pathname === i) ? 'bg-gray' : ''
+            }` }
         >
           <div className="main-wrapper">
             <ul className="column col-lg-3 col-md-3 col-sm-3">
@@ -102,9 +101,9 @@ class CommonFooter extends Component {
               <li>
                 <span
                   className="wechat"
-                  onClick={() => {
+                  onClick={ () => {
                     this.setState({ isWeChat: true })
-                  }}
+                  } }
                 >
                   Wechat
                 </span>
@@ -136,10 +135,10 @@ class CommonFooter extends Component {
         </div>
 
         <div
-          className={`wechart-modal ${isWeChat ? '' : 'hidden-modal'}`}
-          onClick={() => {
+          className={ `wechart-modal ${isWeChat ? '' : 'hidden-modal'}` }
+          onClick={ () => {
             this.setState({ isWeChat: false })
-          }}
+          } }
         >
           <div className="box">
             <div className="wechart-content">
@@ -148,52 +147,50 @@ class CommonFooter extends Component {
           </div>
         </div>
 
-        {/* 移动端导航适配 */}
-        {!isShowNav && (
+        {/* 移动端导航适配 */ }
+        { !isShowNav && (
           <div
             className="wow fadeInUp hidden-lg hidden-md hidden-sm add"
-            onClick={() => {
+            onClick={ () => {
               this.setState({ isShowNav: true })
-            }}
+            } }
           >
             +
           </div>
-        )}
+        ) }
         <div
-          className={`hidden-lg hidden-md hidden-sm wow phone-nav-switch ${
-            isShowNav ? 'display-block fadeInUp' : ''
-          }`}
+          className={ `hidden-lg hidden-md hidden-sm wow phone-nav-switch ${isShowNav ? 'display-block fadeInUp' : ''
+            }` }
         >
           <ul className="phone-nav-ul">
-            {navList.map(nav => (
+            { navList.map(nav => (
               <li
-                key={nav.label}
-                onClick={() => this.switchRoute(nav.label)}
-                className={currentNav === nav.label ? 'active' : ''}
+                key={ nav.label }
+                onClick={ () => this.switchRoute(nav.label) }
+                className={ currentNav === nav.label ? 'active' : '' }
               >
-                <Link to={`/${nav.label}`}> {nav.value}</Link>
+                <Link to={ `/${nav.label}` }> { nav.value }</Link>
               </li>
-            ))}
-            {languages.map(
+            )) }
+            { languages.map(
               locale =>
                 locale.value !== currentLanguage && (
                   <li
-                    key={locale.value}
-                    className={`lang-li ${
-                      locale.value === currentLanguage ? 'active' : ''
-                    }`}
-                    onClick={() => setLang(locale)}
+                    key={ locale.value }
+                    className={ `lang-li ${locale.value === currentLanguage ? 'active' : ''
+                      }` }
+                    onClick={ () => setLang(locale) }
                   >
-                    {locale.value === 'CN' ? 'Chinese' : '英文'}
+                    { locale.value === 'CN' ? 'Chinese' : '英文' }
                   </li>
                 )
-            )}
+            ) }
             <li>
               <div
                 className="close-x"
-                onClick={() => {
+                onClick={ () => {
                   this.setState({ isShowNav: false })
-                }}
+                } }
               >
                 ×
               </div>

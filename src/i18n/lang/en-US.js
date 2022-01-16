@@ -5,6 +5,7 @@ module.exports = {
   NAV_TITLE_04: `About`,
   NAV_TITLE_05: `Contact`,
 
+
   // WORKER_NAME: `JiangYu`,
   WORKER_NAME: `XieHui`,
   WORKER_DESIGNER: `Designer`,
@@ -12,6 +13,12 @@ module.exports = {
   WORKER_CATEGORY: `Category`,
 
   CONTACT_ADDRESS: `7th Floor, No. 27, Zhongshan East Road, Huangpu District, Shanghai`,
+
+
+  KEY_TITLE_01: `GAP Mall`,
+  KEY_TITLE_02: `Levi's Member`,
+  KEY_TITLE_03: `Marriott`,
+
 
   ABOUT_ME_TITLE: `ABOUT ME`,
   ABOUT_ME_DESC_01: `I am Xie Hui, a UI designer currently living in Shanghai. I’m also a photographer. I enjoy recording subtleties of life and emotions with images.`,
@@ -24,6 +31,7 @@ module.exports = {
   CATEGORY_PHOTO: `Photography`,
   CATEGORY_VIDEO: `Video Clip`,
   CATEGORY_WEBSITE: `Website Design`,
+  CATEGORY_APPLET: `Mini Program`,
   CATEGORY_POSTER: `Poster Design`,
   CATEGORY_VISUAL_DESIGN: `Visual Design`,
 
@@ -31,5 +39,11 @@ module.exports = {
   WORKS_GBIB_DESC: `GBiB focuses on blockchain industry investment services, optimistic about the development of new economic systems brought about by the vertical ecology of blockchain technology, digital currency, exchanges, etc., hoping to use its professional technical means and global team in the block. Today, the rapid development of the company has escorted investors and projects.The main business of GBiB includes investor services and project services. Investor services mainly include: project due diligence, consulting, etc.; project services mainly include: financial consultants, strategic analysis, financing, global market expansion. GBiB has a professional investment analysis team and high net worth LP resources. The founding team has extensive experience in finance and investment.Headquartered in Singapore, it currently has investment partnerships in Silicon Valley, New York, Shanghai, London, Toronto and Tokyo.`,
   WORKS_INCPAY_DESC: `INC PAY is a digital currency management, storage, transfer, entertainment, and financial management blockchain-based mobile phone digital currency wallet digital currency wallet as the entrance to the blockchain world. Currently, the blockchain wallet is moving towards the 3.0 stage. Development, with the development of the blockchain, the wallet is constantly evolving. If you keep it, you can only face the risk of elimination; all major companies want to stand out in this wallet battle and become the Alipay in the blockchain wallet.`,
   WORKS_INC_DESC: `Influence Chain is the world's first impact-value data engine based on BlockChain technology. It is dedicated to building a global impact value platform using blockchain and distributed storage technologies. The goal of Influence Chain is to explore projects, IPs and people with public awareness or social influence in various industries, and to demonstrate their new dimension value through blockchain technology.`,
-  WORKS_TEAMLAB_DESC: `teamLab: The world of water particles in oil tanks. The team of waterLab, the theme of the natural element "water": The world of water particles in the tank will reflect on the past and present of the tank art center in a grand and humorous way: the waterfall evaporating in the "tank" The deep industrial awareness of the Shanghai Oil Tank Art Center has given the entire post-industrial art space a new and dynamic identity.`
+  WORKS_TEAMLAB_DESC: `teamLab: The world of water particles in oil tanks. The team of waterLab, the theme of the natural element "water": The world of water particles in the tank will reflect on the past and present of the tank art center in a grand and humorous way: the waterfall evaporating in the "tank" The deep industrial awareness of the Shanghai Oil Tank Art Center has given the entire post-industrial art space a new and dynamic identity.`,
+  WORKS_GAP_DESC: `GAP mall applet, based on WeChat applet, converts official account and online publicity traffic, diverts traffic to the applet, promotes consumption and needs to increase user stickiness, convert loyal users, stabilize old users and attract new users.`,
+  WORKS_LEVIS_DESC: `According to LEVI'S's existing shopping mall mini - programs, customers put forward their needs, mainly aiming at enriching the functions of membership mini - programs, cooperating with holiday activities, digging out more new ways to play, improving user experience, brand loyalty, and helping to strengthen the LEVI'S brand and similar products. Competitiveness. Increase user stickiness and convert new users to consolidate old users.`,
+  WORKS_WANHAO_DESC: `Marriott Bonvoy is a hotel service applet based on WeChat ecology. The whole process of hotel catering and accommodation provides comprehensive intelligent solutions. Promote the intelligent upgrade and efficiency improvement of hotels in order to achieve the purpose of reducing costs and increasing efficiency and improving service quality.`,
+
 }
+
+
