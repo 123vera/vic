@@ -184,10 +184,10 @@ const About = Loadable({
     loading: Loading
 })
 
-const Video = Loadable({
-    loader: () => import('./pages/Video'),
-    loading: Loading
-})
+// const Video = Loadable({
+//     loader: () => import('./pages/Video'),
+//     loading: Loading
+// })
 
 class App extends Component {
     state = {
@@ -241,7 +241,7 @@ class App extends Component {
                                     <Route exact path='/projects' component={ Projects } />
                                     <Route exact path='/lab' component={ LabContainer } />
                                     <Route exact path='/diary' component={ Images } />
-                                    <Route exact path='/video' component={ Video } />
+                                    <Route exact path='/video' component={ Images } />
                                     <Route exact path='/about' component={ About } />
                                     <Route exact path='/contact' component={ Contact } />
                                     <Route exact path='/influence-chain' strict component={ InfluenceChain } />

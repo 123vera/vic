@@ -347,7 +347,7 @@ class Projects extends Component {
                 className="split-part"
                 style={ { transitionDelay: '10760ms' } }
               >
-                UI、WEB Designer.{ ' ' }
+                UI/UX、WEB Designer.{ ' ' }
               </span>
               <span
                 className="split-part"
@@ -394,7 +394,7 @@ class Projects extends Component {
                 className="split-part"
                 style={ { transitionDelay: '20880ms' } }
               >
-                UI、網頁設計師。
+                UI/UX、網頁設計師。
               </span>
               <span className="split-part" style={ { transitionDelay: '160ms' } }>
                 為公司

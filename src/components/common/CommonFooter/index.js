@@ -76,7 +76,7 @@ class CommonFooter extends Component {
             <ul className="column col-lg-3 col-md-3 col-sm-3">
               <li>info</li>
               <li>
-                <Link to="/about">UI、WEB Designer</Link>
+                <Link to="/about">UI/UX、WEB Designer</Link>
               </li>
               <li>
                 <Link to="/images">Photography</Link>
@@ -84,8 +84,8 @@ class CommonFooter extends Component {
             </ul>
             <ul className="column col-lg-3 col-md-3 col-sm-3">
               <li>contact</li>
-              <li>vicjiangyu@gmail.com</li>
-              <li>vanhatch.com</li>
+              <li>x2549080@gmail.com</li>
+              {/*  <li>vanhatch.com</li> */ }
             </ul>
             <ul className="column col-lg-3 col-md-3 col-sm-3">
               <li>follow</li>
@@ -108,7 +108,7 @@ class CommonFooter extends Component {
                   Wechat
                 </span>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="https://weibo.com/6453224041/profile?rightmod=1&wvr=6&mod=personinfo"
                   target="_blank"
@@ -116,7 +116,7 @@ class CommonFooter extends Component {
                 >
                   Weibo
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a
                   href="https://space.bilibili.com/319350209"

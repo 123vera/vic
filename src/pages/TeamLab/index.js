@@ -26,17 +26,17 @@ class TeamLab extends Component {
       //对于ios系统播放完毕之后变黑的情况,在播放结束的时候所以要重新刷新一下src
       if (isiOS) {
         //isiOS是我设置的变量判断ios系统的常量，如果需要判断条件可以评论或者私信我
-        videoplay.addEventListener('ended', function(e) {
+        videoplay.addEventListener('ended', function (e) {
           // 播放结束时触发的时候使播放图标显示，同时播放完之后重新加载video的src
           videoPalse.style.display = 'block'
-          videoplay.src = '/video/teamlab.mp4'
+          // videoplay.src = '/video/teamlab.mp4'
         })
       }
     }
     //同样点击图标的时候也需要播放暂停，下面是对图标的处理
     let videoPalse = document.getElementById('videoPalse') //video标签
     if (videoPalse) {
-      videoPalse.onclick = function() {
+      videoPalse.onclick = function () {
         if (videoplay.paused) {
           //点击视频的时候如果暂停状态，则让其播放
           videoplay.play()
@@ -60,7 +60,7 @@ class TeamLab extends Component {
     }
     return (
       <div className="padding-top work-teamlab content">
-        <Introduce keyWords={keyWords} />
+        <Introduce keyWords={ keyWords } />
 
         <div className="design-pics">
           <video
@@ -71,17 +71,17 @@ class TeamLab extends Component {
             poster="/images/team-lab.png"
             preload="none"
             controlsList="nodownload"
-            playsInline={true} // 小屏播放
+            playsInline={ true } // 小屏播放
             webkit-playsinline="true" // ios系统下小屏播放
             x5-video-player-type="h5"
           />
-          {/* <ReactSVG src='/images/video-play.svg' id="videoPalse" className='video-play' onClick={this.toPlay}/> */}
+          {/* <ReactSVG src='/images/video-play.svg' id="videoPalse" className='video-play' onClick={this.toPlay}/> */ }
           <img
             src="/images/video-play.jpg"
             alt=""
             id="videoPalse"
             className="video-play"
-            onClick={this.toPlay}
+            onClick={ this.toPlay }
           />
         </div>
         <Recommend />
