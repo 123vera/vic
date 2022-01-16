@@ -152,7 +152,7 @@ class Recommend extends Component {
                         )) }
                     </div>
 
-                    <div className=' column hidden-lg hidden-md hidden-sm col-xs-12 recommend-list-phone'>
+                    <div className='column hidden-lg hidden-md hidden-sm col-xs-12 recommend-list-phone'>
                         { swiperList.map(item => (
                             <div key={ item.img } className='wow fadeInUp recommend-item'>
                                 <Link to={ item.link }><img src={ item.img } alt='' /></Link>
